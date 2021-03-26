@@ -1,0 +1,16 @@
+debugging: true
+web_page_sources: "../web_page_sources"
+processed_skos_root: "../processed_skos"
+webroot: ""
+concept_schemes:
+  - name: 'access_rights'
+    versions:
+      - folder_path: "../concept_scheme_sources/access_rights/1.0"
+  - name: 'version_types'
+    versions:
+      - folder_path: "../concept_scheme_sources/version_types/1.0_draft"
+  - name: 'resource_types'
+    versions:
+      - folder_path: "../concept_scheme_sources/resource_types/1.1"
+      - folder_path: "../concept_scheme_sources/resource_types/2.0"
+      - folder_path: "../concept_scheme_sources/resource_types/3.0"
