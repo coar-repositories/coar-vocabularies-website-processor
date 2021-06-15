@@ -389,25 +389,25 @@
 <http://purl.org/coar/version/c_dc82b40f9837b551> <http://www.w3.org/2004/02/skos/core#definition> "A version of the Version of Record of a resource that has been updated or \nenhanced by the provision of supplementary material.\n(adapted from NISO-JAV, https://www.niso.org/publications/niso-rp-8-2008-jav)"@en .
 <http://purl.org/coar/version/scheme> <http://purl.org/dc/terms/title> "Version Types" .
 <http://purl.org/coar/version/scheme> <http://purl.org/dc/terms/description> "The Version Type vocabulary defines concepts to declare the version of a resource. Multilingual labels regard regional distinctions in language and term. The concepts are adopted from the \\\"Journal Article Versions (JAV): Recommendations of the NISO/ALPSP JAV Technical Working Group\\\", https://www.niso.org/publications/niso-rp-8-2008-jav" .
-<http://purl.org/coar/version/scheme> <http://purl.org/dc/terms/creator> "Apollaro, Alberto" .
-<http://purl.org/coar/version/scheme> <http://purl.org/dc/terms/creator> "Aubin, Sophie" .
-<http://purl.org/coar/version/scheme> <http://purl.org/dc/terms/creator> "Azrilevich, Paola" .
-<http://purl.org/coar/version/scheme> <http://purl.org/dc/terms/creator> "Bernal, Isabel" .
-<http://purl.org/coar/version/scheme> <http://purl.org/dc/terms/creator> "Dan, Liu" .
-<http://purl.org/coar/version/scheme> <http://purl.org/dc/terms/creator> "Fava, Ilaria" .
-<http://purl.org/coar/version/scheme> <http://purl.org/dc/terms/creator> "Fripp, Dom" .
-<http://purl.org/coar/version/scheme> <http://purl.org/dc/terms/creator> "Gürdal, Gültekin" .
-<http://purl.org/coar/version/scheme> <http://purl.org/dc/terms/creator> "Habre, Sawsan" .
-<http://purl.org/coar/version/scheme> <http://purl.org/dc/terms/creator> "Holt, Ilkay" .
-<http://purl.org/coar/version/scheme> <http://purl.org/dc/terms/creator> "Hua, Nie" .
-<http://purl.org/coar/version/scheme> <http://purl.org/dc/terms/creator> "Jones, Hilary" .
-<http://purl.org/coar/version/scheme> <http://purl.org/dc/terms/creator> "Kataoka, Tomoko" .
-<http://purl.org/coar/version/scheme> <http://purl.org/dc/terms/creator> "Le Borgne, Laurence" .
-<http://purl.org/coar/version/scheme> <http://purl.org/dc/terms/creator> "Liping, Ku (Alan)" .
-<http://purl.org/coar/version/scheme> <http://purl.org/dc/terms/creator> "Príncipe, Pedro" .
-<http://purl.org/coar/version/scheme> <http://purl.org/dc/terms/creator> "Schirrwagen, Jochen" .
-<http://purl.org/coar/version/scheme> <http://purl.org/dc/terms/creator> "Shiota,Tomoya" .
-<http://purl.org/coar/version/scheme> <http://purl.org/dc/terms/creator> "Solodovnik, Iryna" .
-<http://purl.org/coar/version/scheme> <http://purl.org/dc/terms/creator> "Steinhoff, Wilko" .
-<http://purl.org/coar/version/scheme> <http://purl.org/dc/terms/creator> "Vedovotto, Nathalie" .
+<http://purl.org/coar/version/scheme> <http://purl.org/dc/terms/creator> "Alberto Apollaro" .
+<http://purl.org/coar/version/scheme> <http://purl.org/dc/terms/creator> "Sophie Aubin" .
+<http://purl.org/coar/version/scheme> <http://purl.org/dc/terms/creator> "Paola Azrilevich" .
+<http://purl.org/coar/version/scheme> <http://purl.org/dc/terms/creator> "Isabel Bernal" .
+<http://purl.org/coar/version/scheme> <http://purl.org/dc/terms/creator> "Dan Liu" .
+<http://purl.org/coar/version/scheme> <http://purl.org/dc/terms/creator> "Ilaria Fava" .
+<http://purl.org/coar/version/scheme> <http://purl.org/dc/terms/creator> "Dom Fripp" .
+<http://purl.org/coar/version/scheme> <http://purl.org/dc/terms/creator> "Gültekin Gürdal" .
+<http://purl.org/coar/version/scheme> <http://purl.org/dc/terms/creator> "Sawsan Habre" .
+<http://purl.org/coar/version/scheme> <http://purl.org/dc/terms/creator> "Ilkay Holt" .
+<http://purl.org/coar/version/scheme> <http://purl.org/dc/terms/creator> "Nie Hua" .
+<http://purl.org/coar/version/scheme> <http://purl.org/dc/terms/creator> "Hilary Jones" .
+<http://purl.org/coar/version/scheme> <http://purl.org/dc/terms/creator> "Tomoko Kataoka" .
+<http://purl.org/coar/version/scheme> <http://purl.org/dc/terms/creator> "Laurence Le Borgne" .
+<http://purl.org/coar/version/scheme> <http://purl.org/dc/terms/creator> "Ku (Alan) Liping" .
+<http://purl.org/coar/version/scheme> <http://purl.org/dc/terms/creator> "Pedro Príncipe" .
+<http://purl.org/coar/version/scheme> <http://purl.org/dc/terms/creator> "Jochen Schirrwagen" .
+<http://purl.org/coar/version/scheme> <http://purl.org/dc/terms/creator> "Tomoya Shiota" .
+<http://purl.org/coar/version/scheme> <http://purl.org/dc/terms/creator> "Iryna Solodovnik" .
+<http://purl.org/coar/version/scheme> <http://purl.org/dc/terms/creator> "Wilko Steinhoff" .
+<http://purl.org/coar/version/scheme> <http://purl.org/dc/terms/creator> "Nathalie Vedovotto" .
 <http://purl.org/coar/version/scheme> <http://purl.org/dc/terms/contributor> "COAR Controlled Vocabularies Interest Group" .

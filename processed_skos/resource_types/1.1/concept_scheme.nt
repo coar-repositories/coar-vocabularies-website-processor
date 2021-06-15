@@ -12269,26 +12269,18 @@
 <http://purl.org/coar/resource_type/c_bdcc> <http://www.w3.org/2004/02/skos/core#altLabel> "trabajo final de master"@es .
 <http://purl.org/coar/resource_type> <http://purl.org/dc/terms/title> "Resource Types" .
 <http://purl.org/coar/resource_type> <http://purl.org/dc/terms/description> "The Resource Type vocabulary defines concepts to identify the genre of a resource. Such resources, like publications, research data, audio and video objects, are typically deposited in institutional and thematic repositories or published in ejournals. This vocabulary supports a hierarchical model that relates narrower and broader concepts. Multilingual labels regard regional distinctions in language and term. Concepts of this vocabulary are mapped with terms and concepts of similar vocabularies and dictionaries." .
-<http://purl.org/coar/resource_type> <http://purl.org/dc/terms/creator> "Aubin, Sophie" .
-<http://purl.org/coar/resource_type> <http://purl.org/dc/terms/creator> "Azrilevich, Paola" .
-<http://purl.org/coar/resource_type> <http://purl.org/dc/terms/creator> "Bernal, Isabel" .
-<http://purl.org/coar/resource_type> <http://purl.org/dc/terms/creator> "Le Borgne, Laurence" .
-<http://purl.org/coar/resource_type> <http://purl.org/dc/terms/creator> "Habre, Sawsan" .
-<http://purl.org/coar/resource_type> <http://purl.org/dc/terms/creator> "Hayashi, Yutaka" .
-<http://purl.org/coar/resource_type> <http://purl.org/dc/terms/creator> "Holt, Ilkay" .
-<http://purl.org/coar/resource_type> <http://purl.org/dc/terms/creator> "Hua, Nie" .
-<http://purl.org/coar/resource_type> <http://purl.org/dc/terms/creator> "Jones, Hilary" .
-<http://purl.org/coar/resource_type> <http://purl.org/dc/terms/creator> "Kataoka, Tomoko" .
-<http://purl.org/coar/resource_type> <http://purl.org/dc/terms/creator> "Liping, Ku (Alan)" .
-<http://purl.org/coar/resource_type> <http://purl.org/dc/terms/creator> "Mornati, Susanna" .
-<http://purl.org/coar/resource_type> <http://purl.org/dc/terms/creator> "Ojsteršek, Milan" .
-<http://purl.org/coar/resource_type> <http://purl.org/dc/terms/creator> "Príncipe, Pedro" .
-<http://purl.org/coar/resource_type> <http://purl.org/dc/terms/creator> "Schirrwagen, Jochen" .
-<http://purl.org/coar/resource_type> <http://purl.org/dc/terms/creator> "Steinhoff, Wilko" .
-<http://purl.org/coar/resource_type> <http://purl.org/dc/terms/creator> "Vedovotto, Nathalie" .
-<http://purl.org/coar/resource_type> <http://purl.org/dc/terms/creator> "Fava, Ilaria (departed)" .
-<http://purl.org/coar/resource_type> <http://purl.org/dc/terms/creator> "Shiota,Tomoya (departed)" .
-<http://purl.org/coar/resource_type> <http://purl.org/dc/terms/creator> "Solodovnik, Iryna (departed" .
-<http://purl.org/coar/resource_type> <http://purl.org/dc/terms/creator> "Subirats, Imma (departed)" .
-<http://purl.org/coar/resource_type> <http://purl.org/dc/terms/creator> "Wang, Shenghui (departed)" .
+<http://purl.org/coar/resource_type> <http://purl.org/dc/terms/creator> "Gültekin Gürdal" .
+<http://purl.org/coar/resource_type> <http://purl.org/dc/terms/creator> "Hilary Jones" .
+<http://purl.org/coar/resource_type> <http://purl.org/dc/terms/creator> "Ilaria Fava" .
+<http://purl.org/coar/resource_type> <http://purl.org/dc/terms/creator> "Ilkay Holt" .
+<http://purl.org/coar/resource_type> <http://purl.org/dc/terms/creator> "Imma Subirats" .
+<http://purl.org/coar/resource_type> <http://purl.org/dc/terms/creator> "Iryna Solodovnik" .
+<http://purl.org/coar/resource_type> <http://purl.org/dc/terms/creator> "Isabel Bernal" .
+<http://purl.org/coar/resource_type> <http://purl.org/dc/terms/creator> "Jochen Schirrwagen" .
+<http://purl.org/coar/resource_type> <http://purl.org/dc/terms/creator> "Paola Azrilevich" .
+<http://purl.org/coar/resource_type> <http://purl.org/dc/terms/creator> "Pedro Príncipe" .
+<http://purl.org/coar/resource_type> <http://purl.org/dc/terms/creator> "Sandor Kopacsi" .
+<http://purl.org/coar/resource_type> <http://purl.org/dc/terms/creator> "Shenghui Wang" .
+<http://purl.org/coar/resource_type> <http://purl.org/dc/terms/creator> "Sophie Aubin" .
+<http://purl.org/coar/resource_type> <http://purl.org/dc/terms/creator> "Wilko Steinhoff" .
 <http://purl.org/coar/resource_type> <http://purl.org/dc/terms/contributor> "COAR Controlled Vocabularies Interest Group" .

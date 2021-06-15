@@ -38,22 +38,22 @@ func (s ByReleaseDate) Less(i, j int) bool {
 
 type ConceptSchemeVersion struct {
 	ki.Node                    `yaml:"-"`
-	ID                         string     `yaml:"-"`
-	Version                    string     `yaml:"version"`
-	Current                    bool       `yaml:"current"`
-	Latest                     bool       `yaml:"latest"`
-	Title                      string     `yaml:"title"`
-	Description                string     `yaml:"description"`
-	Namespace                  string     `yaml:"namespace"`
-	Uri                        string     `yaml:"uri"`
-	SkosProcessedFolderPath    string     `yaml:"-"`
-	WorkingFilePathNTriples    string     `yaml:"-"`
-	Released                   time.Time  `yaml:"date"`
-	Creators                   []string   `yaml:"creators"`
-	Contributors               []string   `yaml:"contributors"`
-	Concepts                   []*Concept `yaml:"-"`
-	NotDeprecatedConceptIDList []string   `yaml:"not_deprecated_concepts"`
-	HugoLayout                 string     `yaml:"layout,omitempty"`
+	ID                         string              `yaml:"-"`
+	Version                    string              `yaml:"version"`
+	Current                    bool                `yaml:"current"`
+	Latest                     bool                `yaml:"latest"`
+	Title                      string              `yaml:"title"`
+	Description                string              `yaml:"description"`
+	Namespace                  string              `yaml:"namespace"`
+	Uri                        string              `yaml:"uri"`
+	SkosProcessedFolderPath    string              `yaml:"-"`
+	WorkingFilePathNTriples    string              `yaml:"-"`
+	Released                   time.Time           `yaml:"date"`
+	Creators                   []map[string]string `yaml:"creators"`
+	Contributors               []string            `yaml:"contributors"`
+	Concepts                   []*Concept          `yaml:"-"`
+	NotDeprecatedConceptIDList []string            `yaml:"not_deprecated_concepts"`
+	HugoLayout                 string              `yaml:"layout,omitempty"`
 }
 
 func (conceptSchemeVersion *ConceptSchemeVersion) Marshal() ([]byte, error) {

@@ -91,7 +91,7 @@ func (conceptScheme *ConceptScheme) Initialise(config *ConceptSchemeConfig, proc
 			if len(creatorsForConceptScheme) == 0 {
 				predicate, _ = rdf.NewIRI("http://purl.org/dc/terms/creator")
 				for _, creator := range version.Creators {
-					object, _ = rdf.NewLiteral(creator)
+					object, _ = rdf.NewLiteral(creator["name"])
 					newTriplesRelatedToConceptScheme = append(newTriplesRelatedToConceptScheme, rdf.Triple{Subj: subject, Pred: predicate, Obj: object})
 				}
 			}

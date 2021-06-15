@@ -4,28 +4,51 @@ released: 2021-02-03
 description: 'The Access Rights vocabulary defines concepts to declare the access status of a resource. Multilingual labels regard regional distinctions in language and term.'
 namespace: 'http://purl.org/coar/access_right/'
 creators:
-  - Apollaro, Alberto
-  - Aubin, Sophie
-  - Azrilevich, Paola
-  - Bernal, Isabel
-  - Dan, Liu
-  - Fripp, Dom
-  - Gürdal, Gültekin
-  - Habre, Sawsan
-  - Hayashi, Yutaka
-  - Holt, Ilkay
-  - Hua, Nie
-  - Jones, Hilary
-  - Kataoka, Tomoko
-  - Le Borgne, Laurence
-  - Liping, Ku (Alan)
-  - Mornati, Susanna
-  - Ojsteršek, Milan
-  - Príncipe, Pedro
-  - Schirrwagen, Jochen
-  - Shiota,Tomoya
-  - Solodovnik, Iryna
-  - Steinhoff, Wilko
-  - Vedovotto, Nathalie
+  - name: Alberto Apollaro
+    language:
+  - name: Sophie Aubin
+    language: French
+  - name: Paola Azrilevich
+    language:
+  - name: Isabel Bernal
+    language: Spanish
+  - name: Dan Liu
+    language:
+  - name: Dom Fripp
+    language: English
+  - name: Gültekin Gürdal
+    language: Turkish
+  - name: Sawsan Habre
+    language:
+  - name: Yutaka Hayashi
+    language: Japanese
+  - name: Ilkay Holt
+    language: Turkish
+  - name: Nie Hua
+    language:
+  - name: Hilary Jones
+    language: English
+  - name: Tomoko Kataoka
+    language: Japanese
+  - name: Laurence Le Borgne
+    language: Japanese
+  - name: Ku (Alan) Liping
+    language: Chinese
+  - name: Susanna Mornati
+    language: Italian
+  - name: Milan Ojsteršek
+    language:
+  - name: Pedro Príncipe
+    language: Portugeuse
+  - name: Jochen Schirrwagen
+    language: German
+  - name: Tomoya Shiota
+    language: Japanese
+  - name: Iryna Solodovnik
+    language:
+  - name: Wilko Steinhoff
+    language: Dutch
+  - name: Nathalie Vedovotto
+    language:
 contributors:
   - COAR Controlled Vocabularies Interest Group

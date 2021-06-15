@@ -20,13 +20,13 @@ type ConceptSchemeConfig struct {
 }
 
 type ConceptSchemeDetailConfig struct {
-	Title        string    `yaml:"title"`
-	Version      string    `yaml:"version"`
-	Description  string    `yaml:"description"`
-	Namespace    string    `yaml:"namespace"`
-	Released     time.Time `yaml:"released"`
-	Creators     []string  `yaml:"creators"`
-	Contributors []string  `yaml:"contributors"`
+	Title        string              `yaml:"title"`
+	Version      string              `yaml:"version"`
+	Description  string              `yaml:"description"`
+	Namespace    string              `yaml:"namespace"`
+	Released     time.Time           `yaml:"released"`
+	Creators     []map[string]string `yaml:"creators"`
+	Contributors []string            `yaml:"contributors"`
 }
 
 type Config struct {

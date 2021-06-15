@@ -23,8 +23,9 @@ skosify \
   --cleanup-classes \
   --cleanup-properties \
   --cleanup-unreachable \
-  -o ./skosified/access_rights.nt \
-  ./access_rights.nt
+  --no-enrich-mappings \
+  -o ./concept_scheme_sources/access_rights/1.0/concept_scheme.nt \
+  ~/_temp/downloaded_concept_schemes/access_rights/1.0/concept_scheme.nt
 ```
 
 ```bash
@@ -38,8 +39,9 @@ skosify \
   --cleanup-classes \
   --cleanup-properties \
   --cleanup-unreachable \
-  -o ./skosified/resource_types.nt \
-  ./resource_types.nt
+  --no-enrich-mappings \
+  -o ./concept_scheme_sources/resource_types/3.0/concept_scheme.nt \
+  ~/_temp/downloaded_concept_schemes/resource_types/3.0/concept_scheme.nt
 ```
 
 ```bash
@@ -53,8 +55,9 @@ skosify \
   --cleanup-classes \
   --cleanup-properties \
   --cleanup-unreachable \
-  -o ./skosified/version_types.nt \
-  ./version_types.nt
+  --no-enrich-mappings \
+  -o ./concept_scheme_sources/version_types/1.0_draft/concept_scheme.nt \
+  ~/_temp/downloaded_concept_schemes/version_types/1.0_draft/concept_scheme.nt
 ```
 
 ## Running the processor
@@ -62,4 +65,4 @@ skosify \
 2. Comile the Go code in `./src`
 3. Copy the `config/config_TEMPLATE.yaml` file to `config/config.yaml`
 4. Enter the path to a valid Hugo website source folder in the `webroot` property in `config/config.yaml`
-5. Assuming that the compiled binary is in `./binaries`, run: `./coar_website_builder -c ../config/config.yaml`
+5. Assuming that the compiled binary is in `./binaries`, from within this root directory run: `./binaries/coar_website_builder -c ./config/config.yaml`
