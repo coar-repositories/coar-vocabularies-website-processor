@@ -2,32 +2,12 @@
 <!-- This XML was automatically generated from the SKOS sources for the COAR Vocabulary. It follows the schema developed by 4Science (https://www.4science.it/) for DSpace -->
 <node id="http://purl.org/coar/access_right/scheme" label="Access Rights">
   <isComposedBy>
-    <node id="c_4e81d3665adec49b" label="ddc">
-      <hasNote>available in SKOS Used by DCTERMS
-      </hasNote>
-    </node>
     <node id="c_f1cf" label="embargoed access">
       <hasNote>Embargoed access refers to a resource that is metadata only access until released for open access on a certain date. Embargoes can be required by publishers and funders policies, or set by the author (e.g such as in the case of theses and dissertations).
       </hasNote>
     </node>
-    <node id="c_a7b0a76361a53c03" label="jel">
-      <hasNote>URI available at the Linked Data Service of LC
-      </hasNote>
-    </node>
-    <node id="c_ad2b30be3a0232e4" label="lcc">
-      <hasNote>available in SKOS Used by DCTERMS
-      </hasNote>
-    </node>
-    <node id="c_4e2ae189f89acf28" label="lcsh">
-      <hasNote>available in SKOS Used by DCTERMS
-      </hasNote>
-    </node>
     <node id="c_14cb" label="metadata only access">
       <hasNote>Metadata only access refers to a resource in which access is limited to metadata only. The resource itself is described by the metadata, but neither is directly available through the system or platform nor can be referenced to an open access copy in an external journal or trustworthy archive.
-      </hasNote>
-    </node>
-    <node id="c_7be167c4f9adce25" label="nbc">
-      <hasNote>URI available at the Linked Data Service of LC
       </hasNote>
     </node>
     <node id="c_abf2" label="open access">
@@ -39,14 +19,6 @@
 The user must log-in to the system in order to access the resource
 The user must send an email to the author or system administrator to access the resource
 Access to the resource is restricted to a specific community (e.g. limited to a university community)
-      </hasNote>
-    </node>
-    <node id="c_d47422a3bf77a87b" label="swd">
-      <hasNote>available in SKOS
-      </hasNote>
-    </node>
-    <node id="c_4c2cceec745f24c0" label="udc">
-      <hasNote>available in SKOS Used by DCTERMS
       </hasNote>
     </node>
   </isComposedBy>

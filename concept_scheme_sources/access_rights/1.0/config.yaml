@@ -5,50 +5,57 @@ description: 'The Access Rights vocabulary defines concepts to declare the acces
 namespace: 'http://purl.org/coar/access_right/'
 creators:
   - name: Alberto Apollaro
-    language:
+    language: Spanish
   - name: Sophie Aubin
     language: French
+  - name: Cristina Azorín
+    language: Catalan
   - name: Paola Azrilevich
-    language:
+    language: Spanish
   - name: Isabel Bernal
     language: Spanish
   - name: Dan Liu
-    language:
+    language: Chinese
   - name: Dom Fripp
     language: English
   - name: Gültekin Gürdal
     language: Turkish
   - name: Sawsan Habre
-    language:
+    language: Arabic
   - name: Yutaka Hayashi
     language: Japanese
   - name: Ilkay Holt
     language: Turkish
   - name: Nie Hua
-    language:
+    language: Chinese
   - name: Hilary Jones
     language: English
   - name: Tomoko Kataoka
     language: Japanese
   - name: Laurence Le Borgne
-    language: Japanese
+    language: French
   - name: Ku (Alan) Liping
     language: Chinese
+  - name: Marina Losada
+    language: Catalan
   - name: Susanna Mornati
     language: Italian
+  - name: Brigit Nonó
+    language: Catalan
   - name: Milan Ojsteršek
-    language:
+    language: Slovenian
   - name: Pedro Príncipe
-    language: Portugeuse
+    language: Portuguese
   - name: Jochen Schirrwagen
     language: German
   - name: Tomoya Shiota
     language: Japanese
   - name: Iryna Solodovnik
-    language:
+    language: Russian
   - name: Wilko Steinhoff
     language: Dutch
   - name: Nathalie Vedovotto
-    language:
+    language: French
+
 contributors:
   - COAR Controlled Vocabularies Interest Group

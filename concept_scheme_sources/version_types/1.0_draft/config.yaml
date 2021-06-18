@@ -5,46 +5,46 @@ description: 'The Version Type vocabulary defines concepts to declare the versio
 namespace: 'http://purl.org/coar/version/'
 creators:
   - name: Alberto Apollaro
-    language:
+    language: Spanish
   - name: Sophie Aubin
     language: French
   - name: Paola Azrilevich
-    language:
+    language: Spanish
   - name: Isabel Bernal
     language: Spanish
   - name: Dan Liu
-    language:
+    language: Chinese
   - name: Ilaria Fava
-    language:
+    language: Italian
   - name: Dom Fripp
     language: English
   - name: Gültekin Gürdal
     language: Turkish
   - name: Sawsan Habre
-    language:
+    language: Arabic
   - name: Ilkay Holt
     language: Turkish
   - name: Nie Hua
-    language:
+    language: Chinese
   - name: Hilary Jones
     language: English
   - name: Tomoko Kataoka
     language: Japanese
   - name: Laurence Le Borgne
-    language: Japanese
+    language: French
   - name: Ku (Alan) Liping
     language: Chinese
   - name: Pedro Príncipe
-    language: Portugeuse
+    language: Portuguese
   - name: Jochen Schirrwagen
     language: German
   - name: Tomoya Shiota
     language: Japanese
   - name: Iryna Solodovnik
-    language:
+    language: Russian
   - name: Wilko Steinhoff
     language: Dutch
   - name: Nathalie Vedovotto
-    language:
+    language: French
 contributors:
   - COAR Controlled Vocabularies Interest Group
