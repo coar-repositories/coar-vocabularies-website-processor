@@ -37,7 +37,7 @@
           </hasNote>
         </node>
         <node id="A8F1-NPV9" label="genomic data">
-          <hasNote>Genomic data refers to the genome and DNA data of an organism. They are used in bioinformatics for collecting, storing and processing the genomes of living things. Genomic data is a more extensive term than sequencing data and however genomic data mostly come from sequencing techniques. It may include non-sequencing data such as data from microarrays, data from real-time PCR panels and data from pharmacogenomics studies. [Source: Adapted from https://www.techopedia.com/definition/31247/genomic-data]
+          <hasNote>Genomic data refers to the genome and DNA data of an organism. They are used in bioinformatics for collecting, storing and processing the genomes of living things. Genomic data is a more extensive term than sequencing data. However genomic data mostly come from sequencing techniques. It may include non-sequencing data such as data from microarrays, data from real-time PCR panels and data from pharmacogenomics studies. [Source: Adapted from https://www.techopedia.com/definition/31247/genomic-data]
           </hasNote>
         </node>
         <node id="2H0M-X761" label="geospatial data">
@@ -111,7 +111,7 @@ Source: http://purl.org/dc/dcmitype/InteractiveResource
       <isComposedBy>
         <node id="c_7ad9" label="website">
           <hasNote>A collection of related web pages containing text, images, videos and/or other digital assets that are addressed relative to a common Uniform Resource Locator (URL). A web site is hosted on at least one web server, accessible via a network such as the Internet or a private local area network.
-Source: http://purl.org/spar/fabio/WebSite
+[Source: http://purl.org/spar/fabio/WebSite]
           </hasNote>
         </node>
       </isComposedBy>
@@ -132,15 +132,15 @@ exploit their inventions on an exclusive basis. [Source: https://www.wipo.int/ed
       </hasNote>
       <isComposedBy>
         <node id="SB3Y-W4EH" label="PCT application">
-          <hasNote>A patent application filed through the WIPO-administered Plant Cooperation Treaty (PCT), also known as an international application. [Source: Adapted from https://www.wipo.int/edocs/pubdocs/en/wipo_pub_943_2018.pdf]
+          <hasNote>A patent application filed through the WIPO-administered Patent Cooperation Treaty (PCT), also known as an international application. [Source: Adapted from https://www.wipo.int/edocs/pubdocs/en/wipo_pub_943_2018.pdf]
           </hasNote>
         </node>
         <node id="C53B-JCY5" label="design patent">
-          <hasNote>A patent granted to any person who has invented any new and non-obvious ornamental design for an article of manufacture. The design patent protects only the appearance of an article, but not its structural or functional features. [Source: Adapted from https://www.uspto.gov/patents/basics#heading-30]
+          <hasNote>A patent granted to any person who has invented any new and non-obvious ornamental design for an article of manufacture. The design patent protects only the appearance of an article, but not its structural or functional features. [Source: Adapted from https://www.uspto.gov/patents/basics/types-patent-applications/design-patent-application-guide#def]
           </hasNote>
         </node>
         <node id="Z907-YMBB" label="plant patent">
-          <hasNote>A patent granted to anyone who has invented or discovered and asexually reproduced any distinct and new variety of plant, including cultivated sports, mutants, hybrids, and newly found seedlings, other than a tuber-propagated plant or a plant found in an uncultivated state. [Source: Adapted from https://www.uspto.gov/patents/basics#heading-31]
+          <hasNote>A patent granted to anyone who has invented or discovered and asexually reproduced any distinct and new variety of plant, including cultivated sports, mutants, hybrids, and newly found seedlings, other than a tuber-propagated plant or a plant found in an uncultivated state. [Source: Adapted from https://www.uspto.gov/patents/basics/types-patent-applications/general-information-about-35-usc-161#heading-1]
           </hasNote>
         </node>
         <node id="GPQ7-G5VE" label="plant variety protection">
@@ -157,12 +157,8 @@ exploit their inventions on an exclusive basis. [Source: https://www.wipo.int/ed
         </node>
       </isComposedBy>
     </node>
-    <node id="EHVM-H119" label="research data">
-      <hasNote>Data that are used as primary sources to support technical or scientific enquiry, research, scholarship, or artistic activity, and that are used as evidence in the research process and/or are commonly accepted in the research community as necessary to validate research findings and results. [Source: https://casrai.org/term/research-data]
-      </hasNote>
-    </node>
     <node id="c_5ce6" label="software">
-      <hasNote>A computer program in source code (text) or compiled form.
+      <hasNote>A computer program in source code (text) or compiled form. [Source: http://purl.org/dc/dcmitype/Software]
       </hasNote>
       <isComposedBy>
         <node id="c_c950" label="research software">
@@ -170,7 +166,7 @@ exploit their inventions on an exclusive basis. [Source: https://www.wipo.int/ed
           </hasNote>
         </node>
         <node id="QH80-2R4E" label="source code">
-          <hasNote>Source code is any collection of code, with or without comments, written using[1] a human-readable programming language, usually as plain text. [Source: https://en.wikipedia.org/wiki/Source_code]
+          <hasNote>Source code is any collection of code, with or without comments, written using a human-readable programming language, usually as plain text. [Source: https://en.wikipedia.org/wiki/Source_code]
           </hasNote>
         </node>
       </isComposedBy>
@@ -186,15 +182,15 @@ exploit their inventions on an exclusive basis. [Source: https://www.wipo.int/ed
       </isComposedBy>
     </node>
     <node id="c_18cf" label="text">
-      <hasNote>A resource consisting primarily of words for reading. Examples include books, letters, dissertations, poems, newspapers, articles, archives of mailing lists. Note that facsimiles or images of texts are still of the genre Text. [Source:https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/dcmitype/Text]
+      <hasNote>A resource consisting primarily of words for reading. Examples include books, letters, dissertations, poems, newspapers, articles, archives of mailing lists. Note that facsimiles or images of texts are still of the genre Text. [Source: http://purl.org/dc/dcmitype/Text]
       </hasNote>
       <isComposedBy>
         <node id="c_1162" label="annotation">
-          <hasNote>An annotation in the sense of a legal note is a legally explanatory comment on a decision handed down by a court or arbitral tribunal.
+          <hasNote>An annotation in the sense of a legal note is a legally explanatory comment on a decision handed down by a court or arbitral tribunal. [Source: DRIVER info:eu-repo definition]
           </hasNote>
         </node>
         <node id="c_86bc" label="bibliography">
-          <hasNote>Систематизированный перечень или список письменных работ/источников конкретного автора или на заданную тему.
+          <hasNote>A list of the books and articles that have been used by someone when writing a particular book or article [Source: https://dictionary.cambridge.org/dictionary/english/bibliography]
           </hasNote>
         </node>
         <node id="c_6947" label="blog post">
@@ -268,11 +264,11 @@ exploit their inventions on an exclusive basis. [Source: https://www.wipo.int/ed
                   </hasNote>
                 </node>
                 <node id="c_dcae04bc" label="review article">
-                  <hasNote>An article, is a primary source, typically the realization of a research paper reporting original research findings. [Source: Adapted from http://purl.org/spar/fabio/JournalArticle]
+                  <hasNote>A review article is a secondary source, that is, it is written about other articles, and does not report original research of its own. [Source: Adapted from http://apus.libanswers.com/faq/2324]
                   </hasNote>
                 </node>
                 <node id="c_7bab" label="software paper">
-                  <hasNote>A software paper should include the rationale for the development of the tool and details of the code used for its construction. (Adapted from f1000)
+                  <hasNote>A software paper should include the rationale for the development of the tool and details of the code used for its construction. [Source: Adapted from https://f1000research.com/for-authors/article-guidelines/software-tool-articles ]
                   </hasNote>
                 </node>
               </isComposedBy>
@@ -296,7 +292,7 @@ exploit their inventions on an exclusive basis. [Source: https://www.wipo.int/ed
           </hasNote>
         </node>
         <node id="c_0040" label="manuscript">
-          <hasNote>A manuscript is a work of any kind (text, inscription, music score, map, etc.) written entirely by hand. (Adapted from ODLIS)
+          <hasNote>A manuscript is a work of any kind (text, inscription, music score, map, etc.) written entirely by hand. [Source: https://products.abc-clio.com/ODLIS/odlis_m.aspx]
           </hasNote>
         </node>
         <node id="c_18cw" label="musical notation">
@@ -315,7 +311,7 @@ exploit their inventions on an exclusive basis. [Source: https://www.wipo.int/ed
           </isComposedBy>
         </node>
         <node id="QX5C-AR31" label="other periodical">
-          <hasNote>A resource type that is not included in existing terms under the top concept "Text"
+          <hasNote>A resource type that is not included in existing terms under the top concept "Text". [COAR definition]
           </hasNote>
         </node>
         <node id="c_816b" label="preprint">
@@ -355,21 +351,21 @@ exploit their inventions on an exclusive basis. [Source: https://www.wipo.int/ed
               </hasNote>
             </node>
             <node id="c_18gh" label="technical report">
-              <hasNote>A technical report is a document that records the procedure adopted and results obtained from a scientific or technical activity or investigation.
+              <hasNote>A document that describes the process, progress, or results of technical or scientific research or the state of a technical or scientific research problem. It might also include recommendations and conclusions of the research. [Source: http://guides.library.cornell.edu/ecommons/types]
               </hasNote>
             </node>
           </isComposedBy>
         </node>
         <node id="c_baaf" label="research proposal">
-          <hasNote>A research proposal is a document proposing a research project, generally in the sciences or academia, and generally constitutes a request for sponsorship of that research (https://en.wikipedia.org/wiki/Research_proposal)
+          <hasNote>A research proposal is a document proposing a research project, generally in the sciences or academia, and generally constitutes a request for sponsorship of that research. [Source: https://en.wikipedia.org/wiki/Research_proposal]
           </hasNote>
         </node>
         <node id="c_efa0" label="review">
-          <hasNote>A review of others' published work.
+          <hasNote>A review of others' published work. [Source: Adapted from http://purl.org/spar/fabio/Review]
           </hasNote>
           <isComposedBy>
             <node id="c_ba08" label="book review">
-              <hasNote>A written review and critical analysis of the content, scope and quality of a book or other monographic work.
+              <hasNote>A written review and critical analysis of the content, scope and quality of a book or other monographic work. [Source: http://purl.org/spar/fabio/BookReview]
               </hasNote>
             </node>
             <node id="D97F-VB57" label="commentary">
@@ -377,7 +373,7 @@ exploit their inventions on an exclusive basis. [Source: https://www.wipo.int/ed
               </hasNote>
             </node>
             <node id="H9BQ-739P" label="peer review">
-              <hasNote>A resource resulting from a process by which a scholarly work (such as a paper or a research proposal) is checked by a group of experts in the same field to make sure it meets the necessary standards before it is published or accepted. [Source: Adopted from https://casrai.org/rdm-glossary]
+              <hasNote>An evaluation of scientific, academic, or professional work by others working in the same field. [Source: Adopted from https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf]
               </hasNote>
             </node>
           </isComposedBy>
@@ -391,15 +387,15 @@ exploit their inventions on an exclusive basis. [Source: https://www.wipo.int/ed
           </hasNote>
           <isComposedBy>
             <node id="c_7a1f" label="bachelor thesis">
-              <hasNote>A thesis reporting a research project undertaken as part of an undergraduate course of education leading to a bachelor's degree. (adapted from fabio)
+              <hasNote>A thesis reporting a research project undertaken as part of an undergraduate course of education leading to a bachelor's degree. [Source: http://purl.org/spar/fabio/BachelorsThesis]
               </hasNote>
             </node>
             <node id="c_db06" label="doctoral thesis">
-              <hasNote>A thesis reporting the research undertaken during a period of graduate study leading to a doctoral degree.
+              <hasNote>A thesis reporting the research undertaken during a period of graduate study leading to a doctoral degree. [Source: http://purl.org/spar/fabio/DoctoralThesis]
               </hasNote>
             </node>
             <node id="c_bdcc" label="master thesis">
-              <hasNote>A thesis reporting a research project undertaken as part of a graduate course of education leading to a master's degree.
+              <hasNote>A thesis reporting a research project undertaken as part of a graduate course of education leading to a master's degree. [Source: http://purl.org/spar/fabio/MastersThesis]
               </hasNote>
             </node>
           </isComposedBy>
@@ -409,7 +405,7 @@ exploit their inventions on an exclusive basis. [Source: https://www.wipo.int/ed
           </hasNote>
         </node>
         <node id="c_8042" label="working paper">
-          <hasNote>A working or discussion paper circulated publicly or among a group of peers. Certain disciplines, for example economics, issue working papers in series. [Source: http://www.ukoln.ac.uk/repositories/digirep/index/Eprints_Type_Vocabulary_Encoding_Scheme#ConferenceItem]
+          <hasNote>A working or discussion paper circulated publicly or among a group of peers. Certain disciplines, for example economics, issue working papers in series. [Source: http://www.ukoln.ac.uk/repositories/digirep/index/Eprints_Type_Vocabulary_Encoding_Scheme#:~:text=http%3A//purl.org/eprint/type/WorkingPaper]
           </hasNote>
         </node>
       </isComposedBy>

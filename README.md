@@ -62,7 +62,7 @@ skosify \
 
 ## Running the processor
 1. Prepare the SKOS input files (see above)
-2. Comile the Go code in `./src`
+2. Compile the Go code in `./src`
 3. Copy the `config/config_TEMPLATE.yaml` file to `config/config.yaml`
 4. Enter the path to a valid Hugo website source folder in the `webroot` property in `config/config.yaml`
 5. Assuming that the compiled binary is in `./binaries`, from within this root directory run: `./binaries/coar_website_builder -c ./config/config.yaml`
