@@ -187,16 +187,6 @@ func (website *Website) GenerateDownloadFiles(conceptSchemeVersion *ConceptSchem
 	return err
 }
 
-//func (website *Website) GenerateZip(conceptSchemeVersion *ConceptSchemeVersion) error {
-//	filesPathsToZip := []string{conceptSchemeVersion.WorkingFilePathNTriples, filepath.Join(conceptSchemeVersion.SkosProcessedFolderPath, conceptSchemeVersion.ID+"_for_dspace.xml")}
-//	err := zipFiles(filepath.Join(website.StaticContentFolderPath, fmt.Sprint(conceptSchemeVersion.ID, "_", conceptSchemeVersion.Version, ".zip")), filesPathsToZip)
-//	if err != nil {
-//		zapLogger.Debug(err.Error())
-//		return err
-//	}
-//	return err
-//}
-
 func (website *Website) GenerateHtmlTree(conceptSchemeVersion *ConceptSchemeVersion, asCurrentVersion bool) error {
 	var err error
 	html := "<ul id=\"tree-root\">"
@@ -219,11 +209,6 @@ func (website *Website) GenerateHtmlTree(conceptSchemeVersion *ConceptSchemeVers
 			if concept.Deprecated != true {
 				html += fmt.Sprintf("<li><a href=\"/%s/%s/\">%s</a></li>", conceptSchemeVersion.ID, concept.ID, concept.Title)
 			}
-			//if asCurrentVersion {
-			//	html += fmt.Sprintf("<li><a href=\"/%s/%s/\">%s</a></li>", conceptSchemeVersion.ID, concept.ID, concept.Title)
-			//} else {
-			//	html += fmt.Sprintf("<li><a href=\"/%s/%s/%s/\">%s</a></li>", conceptSchemeVersion.ID, conceptSchemeVersion.Version, concept.ID, concept.Title)
-			//}
 		}
 		return true
 	}
