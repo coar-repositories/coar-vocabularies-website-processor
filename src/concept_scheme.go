@@ -30,6 +30,7 @@ func (conceptScheme *ConceptScheme) Initialise(config *ConceptSchemeConfig, proc
 			Released:     versionConfig.Details.Released,
 			Creators:     versionConfig.Details.Creators,
 			Contributors: versionConfig.Details.Contributors,
+			ChangeLog:    versionConfig.Details.ChangeLog,
 			HugoLayout:   "",
 		}
 		version.SkosProcessedFolderPath = filepath.Join(processedSkosRootFolderPath, conceptScheme.ID, version.Version)

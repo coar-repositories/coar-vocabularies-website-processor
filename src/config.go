@@ -27,6 +27,7 @@ type ConceptSchemeDetailConfig struct {
 	Released     time.Time           `yaml:"released"`
 	Creators     []map[string]string `yaml:"creators"`
 	Contributors []string            `yaml:"contributors"`
+	ChangeLog    string              `yaml:"change_log"`
 }
 
 type Config struct {

@@ -44,6 +44,7 @@ type ConceptSchemeVersion struct {
 	Latest                     bool                `yaml:"latest"`
 	Title                      string              `yaml:"title"`
 	Description                string              `yaml:"description"`
+	ChangeLog                  string              `yaml:"change_log"`
 	Namespace                  string              `yaml:"namespace"`
 	Uri                        string              `yaml:"uri"`
 	SkosProcessedFolderPath    string              `yaml:"-"`
