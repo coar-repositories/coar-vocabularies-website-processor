@@ -46,4 +46,9 @@ creators:
     language: Japanese
 contributors:
   - COAR Controlled Vocabularies Interest Group
-change_log:
+change_log: |
+  * The *Dataset* top concept was expanded to include 13 sub-concepts: *aggregated data*, *clinical trial data*, *compiled data*, *encoded data*, *experimental data*, *genomic data*, *geospatial data*, *laboratory notebook*, *measurement and test data*, *observational data*, *recorded data*, *simulation data* and *survey data*.
+  * The *Patent* top concept was expanded to include 6 sub-concepts: *PCT application*, *design patent*, *plant patent*, *plant variety protection*, *software patent* and *utility model*.
+  * The *Design* top concept was expanded to include 2 sub-concepts: *industrial design* and *layout design*.
+  * The following concepts/sub-concepts were added: *source code*, *conference presentation*, *other periodical*, *research protocol*, *peer review*, *commentary*, *transcription* and *trademark*.
+  * The following concepts were removed from this version of the vocabulary:  *interview*, *report par*, *contribution to journal*, *internal report*, *other type of report*, *report to funding agency* and *periodical*. These concepts remains in the earlier versions of the vocabulary, and the PURL URIs continue to resolve.
