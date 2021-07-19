@@ -410,7 +410,7 @@
 <http://purl.org/coar/version/c_970fb48d4fbd8a85> <http://www.w3.org/2004/02/skos/core#prefLabel> "version publiée"@fr .
 <http://purl.org/coar/version/c_71e4c1898caa6e32> <http://www.w3.org/2004/02/skos/core#altLabel> "на рассмотрении журнала"@ru .
 <http://purl.org/coar/version/scheme> <http://purl.org/dc/terms/title> "Version Types" .
-<http://purl.org/coar/version/scheme> <http://purl.org/dc/terms/description> "The Version Type vocabulary defines concepts to declare the version of a resource. Multilingual labels regard regional distinctions in language and term. The concepts are adopted from the \\\"Journal Article Versions (JAV): Recommendations of the NISO/ALPSP JAV Technical Working Group\\\", https://www.niso.org/publications/niso-rp-8-2008-jav" .
+<http://purl.org/coar/version/scheme> <http://purl.org/dc/terms/description> "The Version Type vocabulary defines concepts to declare the version of a resource. Multilingual labels regard regional distinctions in language and term. The concepts are adopted from the [Journal Article Versions (JAV): Recommendations of the NISO/ALPSP JAV Technical Working Group](https://www.niso.org/publications/niso-rp-8-2008-jav)" .
 <http://purl.org/coar/version/scheme> <http://purl.org/dc/terms/creator> "Alberto Apollaro" .
 <http://purl.org/coar/version/scheme> <http://purl.org/dc/terms/creator> "Sophie Aubin" .
 <http://purl.org/coar/version/scheme> <http://purl.org/dc/terms/creator> "Paola Azrilevich" .
