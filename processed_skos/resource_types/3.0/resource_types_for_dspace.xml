@@ -212,11 +212,11 @@ exploit their inventions on an exclusive basis. [Source: https://www.wipo.int/ed
           </hasNote>
           <isComposedBy>
             <node id="c_18cp" label="conference paper not in proceedings">
-              <hasNote>A paper, published within a conference proceeding, typically the realization of a research paper reporting original research findings. [Source: Adapted from http://purl.org/spar/fabio/ConferencePaper]
+              <hasNote>A paper, typically the realization of a research paper reporting original research findings. Use this label when the paper is not published in a proceeding. [Source: Adapted from http://purl.org/spar/fabio/ConferencePaper]
               </hasNote>
             </node>
             <node id="c_18co" label="conference poster not in proceedings">
-              <hasNote>A display poster, published with a conference proceeding, typically containing text with illustrative figures and/or tables, usually reporting research results or proposing hypotheses, submitted for acceptance to and/or presented at a conference, seminar, symposium, workshop or similar event. [Source: Adapted http://purl.org/spar/fabio/ConferencePoster]
+              <hasNote>A display poster, typically containing text with illustrative figures and/or tables, usually reporting research results or proposing hypotheses, submitted for acceptance to and/or presented at a conference, seminar, symposium, workshop or similar event. Use this label when the poster is not published in a proceeding. [Source: http://purl.org/spar/fabio/ConferencePoster]
               </hasNote>
             </node>
             <node id="R60J-J5BD" label="conference presentation">
@@ -228,11 +228,11 @@ exploit their inventions on an exclusive basis. [Source: https://www.wipo.int/ed
               </hasNote>
               <isComposedBy>
                 <node id="c_5794" label="conference paper">
-                  <hasNote>A paper, typically the realization of a research paper reporting original research findings. Use this label when the paper is not published in a proceeding. [Source: Adapted from http://purl.org/spar/fabio/ConferencePaper]
+                  <hasNote>A paper, published within a conference proceeding, typically the realization of a research paper reporting original research findings. [Source: Adapted from http://purl.org/spar/fabio/ConferencePaper]
                   </hasNote>
                 </node>
                 <node id="c_6670" label="conference poster">
-                  <hasNote>A display poster, typically containing text with illustrative figures and/or tables, usually reporting research results or proposing hypotheses, submitted for acceptance to and/or presented at a conference, seminar, symposium, workshop or similar event. [Source: http://purl.org/spar/fabio/ConferencePoster]
+                  <hasNote>A display poster, published within a conference proceeding, typically containing text with illustrative figures and/or tables, usually reporting research results or proposing hypotheses, submitted for acceptance to and/or presented at a conference, seminar, symposium, workshop or similar event. [Source: Adapted http://purl.org/spar/fabio/ConferencePoster]
                   </hasNote>
                 </node>
               </isComposedBy>

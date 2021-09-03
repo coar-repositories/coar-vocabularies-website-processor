@@ -56,8 +56,8 @@ skosify \
   --cleanup-properties \
   --cleanup-unreachable \
   --no-enrich-mappings \
-  -o ./concept_scheme_sources/version_types/1.0_draft/concept_scheme.nt \
-  ~/_temp/downloaded_concept_schemes/version_types/1.0_draft/concept_scheme.nt
+  -o ./concept_scheme_sources/version_types/1.0/concept_scheme.nt \
+  ~/_temp/downloaded_concept_schemes/version_types/1.0/concept_scheme.nt
 ```
 
 ## Running the processor
