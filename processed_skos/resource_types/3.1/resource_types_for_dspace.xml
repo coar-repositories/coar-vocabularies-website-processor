@@ -41,7 +41,7 @@
           </hasNote>
         </node>
         <node id="2H0M-X761" label="geospatial data">
-          <hasNote>Discrete geospatial data are usually represented using vector data consisting of points, lines and polygons, while continuous geospatial data are usually represented by raster data, consisting of a grid of cells that each has its own value. Any number of applications in a wide range of areas produce geospatial data, such as GIS, Remote Sensing equipment, GPS units, archaeological total stations, manual mapping and computer-aided design (CAD), in a number of formats, including images, vector, text, and tabular data. Vector-based geospatial data include tables listing archaeological sites along with their coordinates, text-based files (e.g., XML) containing coordinates and topology for historic road networks, voting figures for political parties by administrative area. Raster-based geospatial data include satellite images, aerial photographs, scanned maps, and digital maps of elevations, vegetation, land-use, sea surface temperatures, air pollution, soil-types, etc. [Source: https://ddialliance.org/Specification/DDI-CV/GeneralDataFormat_2.0.html]
+          <hasNote>Geospatial data are any type of data with spatial coordinates that allow them to be mapped to the Earth's surface. They can represent physical objects, discrete areas or continuous surfaces. Discrete geospatial data are usually represented using vector data consisting of points, lines and polygons, while continuous geospatial data are usually represented by raster data, consisting of a grid of cells that each has its own value. Any number of applications in a wide range of areas produce geospatial data, such as GIS, Remote Sensing equipment, GPS units, archaeological total stations, manual mapping and computer-aided design (CAD), in a number of formats, including images, vector, text, and tabular data. Vector-based geospatial data include tables listing archaeological sites along with their coordinates, text-based files (e.g., XML) containing coordinates and topology for historic road networks, voting figures for political parties by administrative area. Raster-based geospatial data include satellite images, aerial photographs, scanned maps, and digital maps of elevations, vegetation, land-use, sea surface temperatures, air pollution, soil-types, etc. [Source: https://ddialliance.org/Specification/DDI-CV/GeneralDataFormat_2.0.html]
           </hasNote>
         </node>
         <node id="H41Y-FW7B" label="laboratory notebook">
@@ -79,7 +79,9 @@
           </hasNote>
         </node>
         <node id="BW7T-YM2G" label="layout design">
-          <hasNote>Layout-design (topography) means the three-dimensional disposition, however expressed, of the interconnections of an integrated circuit, or such a three-dimensional disposition prepared for an integrated circuit intended for manufacture the elements of an integrated circuit (at least one of which is an active element) and of some or all. [Source: https://www.wipo.int/edocs/lexdocs/laws/en/hk/hk028en.pdf]
+          <hasNote>Layout-design (topography) means the three-dimensional disposition, however expressed, of 
+the elements of an integrated circuit (at least one of which is an active element) and of some or all of the interconnections of an integrated circuit, or such a three-dimensional disposition prepared for 
+an integrated circuit intended for manufacture [Source: https://www.wipo.int/edocs/lexdocs/laws/en/hk/hk028en.pdf]
           </hasNote>
         </node>
       </isComposedBy>
@@ -125,10 +127,7 @@ Source: http://purl.org/dc/dcmitype/InteractiveResource
       </hasNote>
     </node>
     <node id="c_15cd" label="patent">
-      <hasNote>A set of exclusive rights granted by law to applicants for inventions that are
-new, non-obvious and commercially applicable. A patent is valid for a limited
-period (generally 20 years), during which time patent holders can commercially
-exploit their inventions on an exclusive basis. [Source: https://www.wipo.int/edocs/pubdocs/en/wipo_pub_943_2018.pdf]
+      <hasNote>A patent or patent application.
       </hasNote>
       <isComposedBy>
         <node id="SB3Y-W4EH" label="PCT application">

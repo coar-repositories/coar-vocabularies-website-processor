@@ -24,8 +24,8 @@ skosify \
   --cleanup-properties \
   --cleanup-unreachable \
   --no-enrich-mappings \
-  -o ./concept_scheme_sources/access_rights/1.0/concept_scheme.nt \
-  ~/_temp/downloaded_concept_schemes/access_rights/1.0/concept_scheme.nt
+  -o ./concept_scheme_sources/access_rights/1.1/concept_scheme.nt \
+  ~/_temp/downloaded_concept_schemes/access_rights/1.1/concept_scheme.nt
 ```
 
 ```bash
@@ -40,8 +40,8 @@ skosify \
   --cleanup-properties \
   --cleanup-unreachable \
   --no-enrich-mappings \
-  -o ./concept_scheme_sources/resource_types/3.0/concept_scheme.nt \
-  ~/_temp/downloaded_concept_schemes/resource_types/3.0/concept_scheme.nt
+  -o ./concept_scheme_sources/resource_types/3.1/concept_scheme.nt \
+  ~/_temp/downloaded_concept_schemes/resource_types/3.1/concept_scheme.nt
 ```
 
 ```bash
@@ -56,8 +56,8 @@ skosify \
   --cleanup-properties \
   --cleanup-unreachable \
   --no-enrich-mappings \
-  -o ./concept_scheme_sources/version_types/1.0/concept_scheme.nt \
-  ~/_temp/downloaded_concept_schemes/version_types/1.0/concept_scheme.nt
+  -o ./concept_scheme_sources/version_types/1.1/concept_scheme.nt \
+  ~/_temp/downloaded_concept_schemes/version_types/1.1/concept_scheme.nt
 ```
 
 ## Running the processor

@@ -67,7 +67,7 @@ func regexReplaceInFile(filePath, regexString, replaceString string) error {
 }
 
 func languageTagFromLiteral(serialisedLiteral string) string {
-	languageCode := regexp.MustCompile(`@\w\w$`).FindString(serialisedLiteral)
+	languageCode := regexp.MustCompile(`@[a-z\-]+$`).FindString(serialisedLiteral)
 	if languageCode == "" {
 		zapLogger.Warn("serialised literal does not have language code", zap.String("literal", serialisedLiteral))
 		return languageCode

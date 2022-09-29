@@ -1,0 +1,66 @@
+title: 'Access Rights'
+version: "1.1"
+released: 2022-09-29
+description: 'The Access Rights vocabulary defines concepts to declare the access status of a resource. Multilingual labels regard regional distinctions in language and term.'
+namespace: 'http://purl.org/coar/access_right/'
+creators:
+  - name: Alberto Apollaro
+    language: Spanish
+  - name: Sophie Aubin
+    language: French
+  - name: Cristina Azorín
+    language: Catalan
+  - name: Paola Azrilevich
+    language: Spanish
+  - name: Isabel Bernal
+    language: Spanish
+  - name: Dan Liu
+    language: Chinese
+  - name: Dom Fripp
+    language: English
+  - name: Gültekin Gürdal
+    language: Turkish
+  - name: Sawsan Habre
+    language: Arabic
+  - name: Juha Hakala
+    language: Finnish
+  - name: Yutaka Hayashi
+    language: Japanese
+  - name: Ilkay Holt
+    language: Turkish
+  - name: Nie Hua
+    language: Chinese
+  - name: Hilary Jones
+    language: English
+  - name: Tomoko Kataoka
+    language: Japanese
+  - name: Laurence Le Borgne
+    language: French
+  - name: Ku (Alan) Liping
+    language: Chinese
+  - name: Marina Losada
+    language: Catalan
+  - name: Susanna Mornati
+    language: Italian
+  - name: Brigit Nonó
+    language: Catalan
+  - name: Milan Ojsteršek
+    language: Slovenian
+  - name: Pedro Príncipe
+    language: Portuguese
+  - name: Jochen Schirrwagen
+    language: German
+  - name: Milica Sevkusic
+    language: Serbian
+  - name: Tomoya Shiota
+    language: Japanese
+  - name: Iryna Solodovnik
+    language: Russian
+  - name: Wilko Steinhoff
+    language: Dutch
+  - name: Nathalie Vedovotto
+    language: French
+contributors:
+  - COAR Controlled Vocabularies Interest Group
+change_log: |
+  * Serbian translations added

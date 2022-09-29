@@ -1,0 +1,56 @@
+title: 'Version Types'
+version: "1.1"
+released: 2022-09-29
+description: 'The Version Type vocabulary defines concepts to declare the version of a resource. Multilingual labels regard regional distinctions in language and term. The concepts are adopted from the [Journal Article Versions (JAV): Recommendations of the NISO/ALPSP JAV Technical Working Group](https://www.niso.org/publications/niso-rp-8-2008-jav)'
+namespace: 'http://purl.org/coar/version/'
+creators:
+  - name: Alberto Apollaro
+    language: Spanish
+  - name: Sophie Aubin
+    language: French
+  - name: Paola Azrilevich
+    language: Spanish
+  - name: Isabel Bernal
+    language: Spanish
+  - name: Dan Liu
+    language: Chinese
+  - name: Ilaria Fava
+    language: Italian
+  - name: Dom Fripp
+    language: English
+  - name: Gültekin Gürdal
+    language: Turkish
+  - name: Sawsan Habre
+    language: Arabic
+  - name: Juha Hakala
+    language: Finnish
+  - name: Ilkay Holt
+    language: Turkish
+  - name: Nie Hua
+    language: Chinese
+  - name: Hilary Jones
+    language: English
+  - name: Tomoko Kataoka
+    language: Japanese
+  - name: Laurence Le Borgne
+    language: French
+  - name: Ku (Alan) Liping
+    language: Chinese
+  - name: Pedro Príncipe
+    language: Portuguese
+  - name: Jochen Schirrwagen
+    language: German
+  - name: Milica Sevkusic
+    language: Serbian
+  - name: Tomoya Shiota
+    language: Japanese
+  - name: Iryna Solodovnik
+    language: Russian
+  - name: Wilko Steinhoff
+    language: Dutch
+  - name: Nathalie Vedovotto
+    language: French
+contributors:
+  - COAR Controlled Vocabularies Interest Group
+change_log: |
+  * Serbian translations added
