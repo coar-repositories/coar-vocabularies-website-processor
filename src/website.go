@@ -165,10 +165,11 @@ func (website *Website) GenerateConceptPages(conceptSchemeVersion *ConceptScheme
 }
 
 func (website *Website) GenerateDownloadFiles(conceptSchemeVersion *ConceptSchemeVersion, asCurrentVersion bool) error {
-	destinationFolderPath := filepath.Join(website.StaticContentFolderPath, conceptSchemeVersion.ID, conceptSchemeVersion.Version)
-	if asCurrentVersion {
-		destinationFolderPath = filepath.Join(website.StaticContentFolderPath, conceptSchemeVersion.ID)
-	}
+	//destinationFolderPath := filepath.Join(website.StaticContentFolderPath, conceptSchemeVersion.ID, conceptSchemeVersion.Version)
+	//if asCurrentVersion {
+	//	destinationFolderPath = filepath.Join(website.StaticContentFolderPath, conceptSchemeVersion.ID)
+	//}
+	destinationFolderPath := conceptSchemeVersion.CalculateFolderPath(website.ContentFolderPath, asCurrentVersion)
 	err := os.MkdirAll(destinationFolderPath, os.ModePerm)
 	if err != nil {
 		zapLogger.Debug(err.Error())
