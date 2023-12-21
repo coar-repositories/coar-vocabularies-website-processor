@@ -52,6 +52,7 @@ type ConceptSchemeVersion struct {
 	Released                   time.Time           `yaml:"date"`
 	Creators                   []map[string]string `yaml:"creators"`
 	Contributors               []string            `yaml:"contributors"`
+	Languages                  []string            `yaml:"languages"`
 	Concepts                   []*Concept          `yaml:"-"`
 	NotDeprecatedConceptIDList []string            `yaml:"not_deprecated_concepts"`
 	HugoLayout                 string              `yaml:"layout,omitempty"`
@@ -81,18 +82,20 @@ func (conceptSchemeVersion *ConceptSchemeVersion) CalculateFolderPath(webRootCon
 	}
 }
 
-//func (conceptSchemeVersion *ConceptSchemeVersion) GenerateDspaceXml() ([]byte, error) {
-//	dSpaceXmlFilePath := filepath.Join(conceptSchemeVersion.SkosProcessedFolderPath, conceptSchemeVersion.ID+"_for_dspace.xml")
-//	if err != nil {
-//		zapLogger.Error(err.Error())
-//		zapLogger.Fatal(fmt.Sprintf("Unable to create DSpace XML file '%s' for concept scheme '%s' - halting immediately",dSpaceXmlFilePath, conceptSchemeConfig.ID))
-//	} else {
-//		zapLogger.Info(fmt.Sprintf("Created DSpace XML file '%s' for concept scheme '%s'",dSpaceXmlFilePath, conceptSchemeConfig.ID))
-//	}
-//}
-
 func (conceptSchemeVersion *ConceptSchemeVersion) generateDspaceXml() error {
-	dSpaceXmlFilePath := filepath.Join(conceptSchemeVersion.SkosProcessedFolderPath, conceptSchemeVersion.ID+"_for_dspace.xml")
+	var err error
+	for _, languageCode := range conceptSchemeVersion.Languages {
+		err = conceptSchemeVersion.generateDspaceXmlForLanguage(languageCode)
+		if err != nil {
+			zapLogger.Error(err.Error())
+			return err
+		}
+	}
+	return err
+}
+
+func (conceptSchemeVersion *ConceptSchemeVersion) generateDspaceXmlForLanguage(languageCode string) error {
+	dSpaceXmlFilePath := filepath.Join(conceptSchemeVersion.SkosProcessedFolderPath, conceptSchemeVersion.ID+"_for_dspace_"+languageCode+".xml")
 	zapLogger.Debug(fmt.Sprintf("Creating DSpace XML file for '%s: %s' at %s", conceptSchemeVersion.ID, conceptSchemeVersion.Version, dSpaceXmlFilePath))
 	var err error
 	xml := "<?xml version=\"1.0\" encoding=\"UTF-8\"?>"
@@ -107,6 +110,11 @@ func (conceptSchemeVersion *ConceptSchemeVersion) generateDspaceXml() error {
 		} else {
 			if concept.Deprecated != true {
 				xmlNode = fmt.Sprintf("<node id=\"%s\" label=\"%s\">", concept.ID, concept.Title)
+				for _, label := range concept.PrefLabels {
+					if label.LanguageCode == languageCode {
+						xmlNode = fmt.Sprintf("<node id=\"%s\" label=\"%s\">", concept.ID, label.Value)
+					}
+				}
 				if concept.Definition != "" {
 					xmlNode += fmt.Sprintf("<hasNote>%s</hasNote>", concept.Definition)
 				}

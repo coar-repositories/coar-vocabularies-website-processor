@@ -30,6 +30,7 @@ func (conceptScheme *ConceptScheme) Initialise(config *ConceptSchemeConfig, proc
 			Released:     versionConfig.Details.Released,
 			Creators:     versionConfig.Details.Creators,
 			Contributors: versionConfig.Details.Contributors,
+			Languages:    versionConfig.Details.Languages,
 			ChangeLog:    versionConfig.Details.ChangeLog,
 			HugoLayout:   "",
 		}

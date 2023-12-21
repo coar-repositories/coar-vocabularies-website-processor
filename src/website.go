@@ -174,10 +174,19 @@ func (website *Website) GenerateDownloadFiles(conceptSchemeVersion *ConceptSchem
 		zapLogger.Debug(err.Error())
 		return err
 	}
-	_, err = copyFile(filepath.Join(conceptSchemeVersion.SkosProcessedFolderPath, conceptSchemeVersion.ID+"_for_dspace.xml"), filepath.Join(destinationFolderPath, conceptSchemeVersion.ID+"_for_dspace.xml"))
+	sourceFolder := filepath.Join(conceptSchemeVersion.SkosProcessedFolderPath)
+	globPattern := filepath.Join(sourceFolder, "*.xml")
+	files, err := filepath.Glob(globPattern)
 	if err != nil {
-		zapLogger.Debug(err.Error())
+		zapLogger.Error(err.Error())
 		return err
+	}
+	for _, file := range files {
+		_, err = copyFile(file, filepath.Join(destinationFolderPath, filepath.Base(file)))
+		if err != nil {
+			zapLogger.Debug(err.Error())
+			return err
+		}
 	}
 	_, err = copyFile(conceptSchemeVersion.WorkingFilePathNTriples, filepath.Join(destinationFolderPath, conceptSchemeVersion.ID+".nt"))
 	if err != nil {
