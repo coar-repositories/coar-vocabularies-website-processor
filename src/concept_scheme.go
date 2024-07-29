@@ -48,9 +48,9 @@ func (conceptScheme *ConceptScheme) Initialise(config *ConceptSchemeConfig, proc
 			return err
 		}
 		// ### Open file and read triples into triple slice
-
 		var tripleDecoder rdf.TripleDecoder
-		skosFileReader, err := os.Open(version.WorkingFilePathNTriples)
+		var skosFileReader *os.File
+		skosFileReader, err = os.Open(version.WorkingFilePathNTriples)
 		defer skosFileReader.Close()
 		if err != nil {
 			zapLogger.Error(err.Error())
@@ -63,7 +63,7 @@ func (conceptScheme *ConceptScheme) Initialise(config *ConceptSchemeConfig, proc
 			zapLogger.Error(err.Error())
 			return err
 		}
-
+		zapLogger.Debug(fmt.Sprintf("Triple count before processing = %d", len(triples)))
 		// ### Check for conceptScheme in triples
 		conceptSchemeTriples := getMatchingTriples(triples, "", "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "http://www.w3.org/2004/02/skos/core#ConceptScheme")
 		if len(conceptSchemeTriples) > 0 {

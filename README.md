@@ -1,7 +1,7 @@
 # COAR Vocabularies-website Processor
 Tool for generating the COAR Vocabularies documentation from SKOS files, exported from the COAR Vocabularies Management system (iQVoc).
 
-This tool generates sources designed to work with Hugo. However, they could probably be quite easilty ported to any static site generator that uses Markdown with YAML metadata front-matter.
+This tool generates sources designed to work with Hugo. However, they could probably be quite easily ported to any static site generator that uses Markdown with YAML metadata front-matter.
 
 
 
