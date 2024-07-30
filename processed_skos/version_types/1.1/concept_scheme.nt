@@ -287,9 +287,3 @@
 <http://purl.org/coar/version/scheme> <http://purl.org/dc/terms/creator> "Wilko Steinhoff" .
 <http://purl.org/coar/version/scheme> <http://purl.org/dc/terms/creator> "Nathalie Vedovotto" .
 <http://purl.org/coar/version/scheme> <http://purl.org/dc/terms/contributor> "COAR Controlled Vocabularies Interest Group" .
-d as being published even before the compilation of a volume issue and assignment of associated metadata, as long as it is citable via some permanent identifier(s). This does not include any \u201Cearly release\u201D resource that has not yet been \u201Cfixed\u201D by processes that are still to be applied, such as copy-editing, proof corrections, layout, and typesetting.\n(adapted from NISO-JAV, https://www.niso.org/publications/niso-rp-8-2008-jav)"@en .
-<http://purl.org/coar/version/c_970fb48d4fbd8a85> <http://www.w3.org/2004/02/skos/core#prefLabel> "VoR"@en .
-<http://purl.org/coar/version/scheme> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://purl.org/coar/version/c_dc82b40f9837b551> .
-<http://purl.org/coar/version/c_fa2ee174bc00049f> <http://www.w3.org/2004/02/skos/core#altLabel> "oikovedos"@fi .
-<http://purl.org/coar/version/c_fa2ee174bc00049f> <http://www.w3.org/2004/02/skos/core#editorialNote> "Chinese translations added July 2022"@en .
-

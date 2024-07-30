@@ -40,17 +40,12 @@ func (conceptScheme *ConceptScheme) Initialise(config *ConceptSchemeConfig, proc
 			zapLogger.Error(err.Error())
 			return err
 		}
+		originalNTriplesFilePath := filepath.Join(versionConfig.SkosSourceFolderPath, "concept_scheme.nt")
 		version.WorkingFilePathNTriples = filepath.Join(version.SkosProcessedFolderPath, "concept_scheme.nt")
-		// ### Copy original file to 'processed' sub-folder and work on that from now on
-		_, err = copyFile(filepath.Join(versionConfig.SkosSourceFolderPath, "concept_scheme.nt"), version.WorkingFilePathNTriples)
-		if err != nil {
-			zapLogger.Error(err.Error())
-			return err
-		}
 		// ### Open file and read triples into triple slice
 		var tripleDecoder rdf.TripleDecoder
 		var skosFileReader *os.File
-		skosFileReader, err = os.Open(version.WorkingFilePathNTriples)
+		skosFileReader, err = os.Open(originalNTriplesFilePath)
 		defer skosFileReader.Close()
 		if err != nil {
 			zapLogger.Error(err.Error())
