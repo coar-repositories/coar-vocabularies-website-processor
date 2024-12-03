@@ -3,111 +3,135 @@
 <node id="http://purl.org/coar/resource_type" label="Resource Types">
   <isComposedBy>
     <node id="c_12cc" label="cartographic material">
-      <hasNote>Any material representing the whole or part of the earth or any celestial body at any scale. Cartographic materials include two- and three-dimensional maps and plans (including maps of imaginary places); aeronautical, navigational, and celestial charts; atlases; globes; block diagrams; sections; aerial photographs with a cartographic purpose; bird's-eye views (map views), etc. [Source: http://www.loc.gov/marc/cfmap.html]
+      <hasNote>
+        <![CDATA[Any material representing the whole or part of the earth or any celestial body at any scale. Cartographic materials include two- and three-dimensional maps and plans (including maps of imaginary places); aeronautical, navigational, and celestial charts; atlases; globes; block diagrams; sections; aerial photographs with a cartographic purpose; bird's-eye views (map views), etc. [Source: http://www.loc.gov/marc/cfmap.html]]]>
       </hasNote>
       <isComposedBy>
         <node id="c_12cd" label="map">
-          <hasNote>Defined as a representation normally to scale and on a flat medium, of a selection of material or abstract features on, or in relation to, the surface of the earth or of another celestial body. [Source: https://www.loc.gov/marc/bibliographic/bd007a.html]
+          <hasNote>
+            <![CDATA[Defined as a representation normally to scale and on a flat medium, of a selection of material or abstract features on, or in relation to, the surface of the earth or of another celestial body. [Source: https://www.loc.gov/marc/bibliographic/bd007a.html]]]>
           </hasNote>
         </node>
       </isComposedBy>
     </node>
     <node id="c_ddb1" label="dataset">
-      <hasNote>A collection of related facts and data encoded in a defined structure. (adapted from fabio; DataCite)
+      <hasNote>
+        <![CDATA[A collection of related facts and data encoded in a defined structure. (adapted from fabio; DataCite)]]>
       </hasNote>
     </node>
     <node id="c_c513" label="image">
-      <hasNote>A visual representation other than text, including all types of moving image and still image.
+      <hasNote>
+        <![CDATA[A visual representation other than text, including all types of moving image and still image.]]>
       </hasNote>
       <isComposedBy>
         <node id="c_8a7e" label="moving image">
-          <hasNote>A moving display, either generated dynamically by a computer program or formed from a series of pre-recorded still images imparting an impression of motion when shown in succession. (adapted from fabio)
+          <hasNote>
+            <![CDATA[A moving display, either generated dynamically by a computer program or formed from a series of pre-recorded still images imparting an impression of motion when shown in succession. (adapted from fabio)]]>
           </hasNote>
           <isComposedBy>
             <node id="c_12ce" label="video">
-              <hasNote>A recording of visual images, usually in motion and with sound accompaniment. [Source: http://www.ifla.org/files/assets/cataloguing/isbd/isbd-cons_20110321.pdf ]
+              <hasNote>
+                <![CDATA[A recording of visual images, usually in motion and with sound accompaniment. [Source: http://www.ifla.org/files/assets/cataloguing/isbd/isbd-cons_20110321.pdf ]]]>
               </hasNote>
             </node>
           </isComposedBy>
         </node>
         <node id="c_ecc8" label="still image">
-          <hasNote>A recorded static visual representation. This class of image includes diagrams, drawings, graphs, graphic designs, plans, photographs and prints.
+          <hasNote>
+            <![CDATA[A recorded static visual representation. This class of image includes diagrams, drawings, graphs, graphic designs, plans, photographs and prints.]]>
           </hasNote>
         </node>
       </isComposedBy>
     </node>
     <node id="c_e9a0" label="interactive resource">
-      <hasNote>A resource requiring interaction from the user to be understood, executed, or experienced. Examples include forms on Web pages, applets, multimedia learning objects, chat services, or virtual reality environments. [Source: http://dublincore.org/documents/2010/10/11/dcmi-type-vocabulary/  ]
+      <hasNote>
+        <![CDATA[A resource requiring interaction from the user to be understood, executed, or experienced. Examples include forms on Web pages, applets, multimedia learning objects, chat services, or virtual reality environments. [Source: http://dublincore.org/documents/2010/10/11/dcmi-type-vocabulary/  ]]]>
       </hasNote>
       <isComposedBy>
         <node id="c_7ad9" label="website">
-          <hasNote>A website, also written as web site or simply site, is a set of related web pages typically served from a single web domain. A website is hosted on at least one web server, accessible via a network such as the Internet or a private local area network through an Internet address known as a uniform resource locator (URL). All publicly accessible websites collectively constitute the World Wide Web. [Source: https://en.wikipedia.org/wiki/Website ]
+          <hasNote>
+            <![CDATA[A website, also written as web site or simply site, is a set of related web pages typically served from a single web domain. A website is hosted on at least one web server, accessible via a network such as the Internet or a private local area network through an Internet address known as a uniform resource locator (URL). All publicly accessible websites collectively constitute the World Wide Web. [Source: https://en.wikipedia.org/wiki/Website ]]]>
           </hasNote>
         </node>
       </isComposedBy>
     </node>
     <node id="c_1843" label="other">
-      <hasNote>A rest category which may cover text, interactive, sound, or image-based resources not explicitly addressed in any concept in this vocabulary
+      <hasNote>
+        <![CDATA[A rest category which may cover text, interactive, sound, or image-based resources not explicitly addressed in any concept in this vocabulary]]>
       </hasNote>
     </node>
     <node id="c_5ce6" label="software">
-      <hasNote>A computer program in source code (text) or compiled form.
+      <hasNote>
+        <![CDATA[A computer program in source code (text) or compiled form.]]>
       </hasNote>
     </node>
     <node id="c_18cc" label="sound">
-      <hasNote>A resource primarily intended to be heard. Examples include a music playback file format, an audio compact disc, and recorded speech or sounds. [Source: http://dublincore.org/documents/dcmi-terms/#dcmitype-Sound]
+      <hasNote>
+        <![CDATA[A resource primarily intended to be heard. Examples include a music playback file format, an audio compact disc, and recorded speech or sounds. [Source: http://dublincore.org/documents/dcmi-terms/#dcmitype-Sound]]]>
       </hasNote>
       <isComposedBy>
         <node id="c_18cd" label="musical composition">
-          <hasNote>Musical composition can refer to an original piece of music, the structure of a musical piece, or the process of creating a new piece of music.   [Source: https://en.wikipedia.org/wiki/Musical_composition ]
+          <hasNote>
+            <![CDATA[Musical composition can refer to an original piece of music, the structure of a musical piece, or the process of creating a new piece of music.   [Source: https://en.wikipedia.org/wiki/Musical_composition ]]]>
           </hasNote>
         </node>
       </isComposedBy>
     </node>
     <node id="c_18cf" label="text">
-      <hasNote>A resource consisting primarily of words for reading. Examples include books, letters, dissertations, poems, newspapers, articles, archives of mailing lists. Note that facsimiles or images of texts are still of the genre Text. [Source: http://dublincore.org/documents/dcmi-terms/#dcmitype-Sound]
+      <hasNote>
+        <![CDATA[A resource consisting primarily of words for reading. Examples include books, letters, dissertations, poems, newspapers, articles, archives of mailing lists. Note that facsimiles or images of texts are still of the genre Text. [Source: http://dublincore.org/documents/dcmi-terms/#dcmitype-Sound]]]>
       </hasNote>
       <isComposedBy>
         <node id="c_1162" label="annotation">
-          <hasNote>An annotation in the sense of a legal note is a legally explanatory comment on a decision handed down by a court or arbitral tribunal.
+          <hasNote>
+            <![CDATA[An annotation in the sense of a legal note is a legally explanatory comment on a decision handed down by a court or arbitral tribunal.]]>
           </hasNote>
         </node>
         <node id="c_86bc" label="bibliography">
-          <hasNote>A systematic list or enumeration of written works by a specific author or on a given subject.
+          <hasNote>
+            <![CDATA[A systematic list or enumeration of written works by a specific author or on a given subject.]]>
           </hasNote>
         </node>
         <node id="c_2f33" label="book">
-          <hasNote>A non-serial publication that is complete in one volume or a designated finite number of volumes. (adapted from CiTO; EPrint Type vocabulary)
+          <hasNote>
+            <![CDATA[A non-serial publication that is complete in one volume or a designated finite number of volumes. (adapted from CiTO; EPrint Type vocabulary)]]>
           </hasNote>
           <isComposedBy>
             <node id="c_3248" label="book part">
-              <hasNote>A defined chapter or section of a book, usually with a separate title or number.
+              <hasNote>
+                <![CDATA[A defined chapter or section of a book, usually with a separate title or number.]]>
               </hasNote>
             </node>
           </isComposedBy>
         </node>
         <node id="c_c94f" label="conference object">
-          <hasNote>All kind of digital resources contributed to a conference, like conference presentation (slides), conference report, conference lecture, abstracts, demonstrations. For conference papers, posters or proceedings the specific concepts should be used..
+          <hasNote>
+            <![CDATA[All kind of digital resources contributed to a conference, like conference presentation (slides), conference report, conference lecture, abstracts, demonstrations. For conference papers, posters or proceedings the specific concepts should be used..]]>
           </hasNote>
           <isComposedBy>
             <node id="c_18cp" label="conference paper not in proceedings">
-              <hasNote>A conference paper that is submitted to a conference and presented to the audience. The conference paper is not published in proceedings. [Source: http://academia.stackexchange.com/questions/18349/difference-between-conference-paper-and-journal-paper ]
+              <hasNote>
+                <![CDATA[A conference paper that is submitted to a conference and presented to the audience. The conference paper is not published in proceedings. [Source: http://academia.stackexchange.com/questions/18349/difference-between-conference-paper-and-journal-paper ]]]>
               </hasNote>
             </node>
             <node id="c_18co" label="conference poster not in proceedings">
-              <hasNote>A conference poster that is submitted to a conference and presented there at a poster presentation. The conference poster is not published in proceedings. [Source: http://academia.stackexchange.com/questions/18349/difference-between-conference-paper-and-journal-paper]
+              <hasNote>
+                <![CDATA[A conference poster that is submitted to a conference and presented there at a poster presentation. The conference poster is not published in proceedings. [Source: http://academia.stackexchange.com/questions/18349/difference-between-conference-paper-and-journal-paper]]]>
               </hasNote>
             </node>
             <node id="c_f744" label="conference proceedings">
-              <hasNote>Conference proceedings is the official record of a conference meeting. It is a collection of documents which corresponds to the presentations given at the conference. It may include additional content. [Source: http://www.ieee.org/documents/confprocdefined.pdf  ]
+              <hasNote>
+                <![CDATA[Conference proceedings is the official record of a conference meeting. It is a collection of documents which corresponds to the presentations given at the conference. It may include additional content. [Source: http://www.ieee.org/documents/confprocdefined.pdf  ]]]>
               </hasNote>
               <isComposedBy>
                 <node id="c_5794" label="conference paper">
-                  <hasNote>A conference paper that is submitted to a conference and presented to the audience. The conference paper is published in proceedings.
+                  <hasNote>
+                    <![CDATA[A conference paper that is submitted to a conference and presented to the audience. The conference paper is published in proceedings.]]>
                   </hasNote>
                 </node>
                 <node id="c_6670" label="conference poster">
-                  <hasNote>A conference poster that is submitted to a conference and presented there at a poster presentation. The conference poster is published in proceedings.
+                  <hasNote>
+                    <![CDATA[A conference poster that is submitted to a conference and presented there at a poster presentation. The conference poster is published in proceedings.]]>
                   </hasNote>
                 </node>
               </isComposedBy>
@@ -115,57 +139,70 @@
           </isComposedBy>
         </node>
         <node id="c_8544" label="lecture">
-          <hasNote>A transcription of a talk delivered during an academic event.
+          <hasNote>
+            <![CDATA[A transcription of a talk delivered during an academic event.]]>
           </hasNote>
         </node>
         <node id="c_0857" label="letter">
-          <hasNote>A brief description of important new research, also known as “communication”. (adapted from EuroCRIS)
+          <hasNote>
+            <![CDATA[A brief description of important new research, also known as “communication”. (adapted from EuroCRIS)]]>
           </hasNote>
         </node>
         <node id="c_18cw" label="musical notation">
-          <hasNote>Musical notation is any system used to visually represent aurally perceived music through the use of written symbols, including ancient or modern musical symbols. [Source: https://en.wikipedia.org/wiki/Musical_notation]
+          <hasNote>
+            <![CDATA[Musical notation is any system used to visually represent aurally perceived music through the use of written symbols, including ancient or modern musical symbols. [Source: https://en.wikipedia.org/wiki/Musical_notation]]]>
           </hasNote>
         </node>
         <node id="c_15cd" label="patent">
-          <hasNote>A patent or patent application.
+          <hasNote>
+            <![CDATA[A patent or patent application.]]>
           </hasNote>
         </node>
         <node id="c_2659" label="periodical">
-          <hasNote>A periodical is a publication issued on a regular and ongoing basis as a series of issues. (Adapted from fabio) [Source: http://www.abc-clio.com/ODLIS/odlis_p.aspx]
+          <hasNote>
+            <![CDATA[A periodical is a publication issued on a regular and ongoing basis as a series of issues. (Adapted from fabio) [Source: http://www.abc-clio.com/ODLIS/odlis_p.aspx]]]>
           </hasNote>
           <isComposedBy>
             <node id="c_0640" label="journal">
-              <hasNote>A periodical of (academic) journal articles.  (Adapted from bibo) [Source: http://dspacecris.eurocris.org/cris/classcerif/classcerif00422]
+              <hasNote>
+                <![CDATA[A periodical of (academic) journal articles.  (Adapted from bibo) [Source: http://dspacecris.eurocris.org/cris/classcerif/classcerif00422]]]>
               </hasNote>
               <isComposedBy>
                 <node id="c_3e5a" label="contribution to journal">
-                  <hasNote>A contribution to a journal denotes a work published in a journal. If applicable sub-terms should be chosen.
+                  <hasNote>
+                    <![CDATA[A contribution to a journal denotes a work published in a journal. If applicable sub-terms should be chosen.]]>
                   </hasNote>
                   <isComposedBy>
                     <node id="c_beb9" label="data paper">
-                      <hasNote>A data paper is a scholarly publication describing a particular dataset or group of dataset, published in the form of a peer-reviewed article in a scholarly journal. The main purpose of a data paper is to describe data, the circumstances of their collection, and information related to data features, access and potential reuse. Adapted from https://en.wikipedia.org/wiki/Data_paper and http://www.gbif.org/publishing-data/data-papers
+                      <hasNote>
+                        <![CDATA[A data paper is a scholarly publication describing a particular dataset or group of dataset, published in the form of a peer-reviewed article in a scholarly journal. The main purpose of a data paper is to describe data, the circumstances of their collection, and information related to data features, access and potential reuse. Adapted from https://en.wikipedia.org/wiki/Data_paper and http://www.gbif.org/publishing-data/data-papers]]>
                       </hasNote>
                     </node>
                     <node id="c_b239" label="editorial">
-                      <hasNote>A brief essay expressing the opinion or position of the chief editor(s) of a (academic) journal with respect to a current political, social, cultural, or professional issue. Adapted from ODLIS [Source: http://www.abc-clio.com/ODLIS/odlis_e.aspx ]
+                      <hasNote>
+                        <![CDATA[A brief essay expressing the opinion or position of the chief editor(s) of a (academic) journal with respect to a current political, social, cultural, or professional issue. Adapted from ODLIS [Source: http://www.abc-clio.com/ODLIS/odlis_e.aspx ]]]>
                       </hasNote>
                     </node>
                     <node id="c_6501" label="journal article">
-                      <hasNote>An article on a particular topic and published in a journal issue. (adapted from fabio) [Source: http://dspacecris.eurocris.org/cris/classcerif/classcerif00423]
+                      <hasNote>
+                        <![CDATA[An article on a particular topic and published in a journal issue. (adapted from fabio) [Source: http://dspacecris.eurocris.org/cris/classcerif/classcerif00423]]]>
                       </hasNote>
                       <isComposedBy>
                         <node id="c_2df8fbb1" label="research article">
-                          <hasNote>A research article is a primary source, that is, it reports the methods and results of an original study performed by the authors. (adapted from http://apus.libanswers.com/faq/2324)
+                          <hasNote>
+                            <![CDATA[A research article is a primary source, that is, it reports the methods and results of an original study performed by the authors. (adapted from http://apus.libanswers.com/faq/2324)]]>
                           </hasNote>
                         </node>
                         <node id="c_dcae04bc" label="review article">
-                          <hasNote>A review article is a secondary source, that is, it is written about other articles, and does not report original research of its own. (adapted from http://apus.libanswers.com/faq/2324)
+                          <hasNote>
+                            <![CDATA[A review article is a secondary source, that is, it is written about other articles, and does not report original research of its own. (adapted from http://apus.libanswers.com/faq/2324)]]>
                           </hasNote>
                         </node>
                       </isComposedBy>
                     </node>
                     <node id="c_545b" label="letter to the editor">
-                      <hasNote>A letter to the editor is a letter sent to a periodical about issues of concern from its readers. (adapted from Wikipedia) [Source: http://dspacecris.eurocris.org/cris/classcerif/classcerif00429]
+                      <hasNote>
+                        <![CDATA[A letter to the editor is a letter sent to a periodical about issues of concern from its readers. (adapted from Wikipedia) [Source: http://dspacecris.eurocris.org/cris/classcerif/classcerif00429]]]>
                       </hasNote>
                     </node>
                   </isComposedBy>
@@ -175,95 +212,116 @@
           </isComposedBy>
         </node>
         <node id="c_816b" label="preprint">
-          <hasNote>Pre-print describes the first draft of the article - before peer-review, even before any contact with a publisher. This use is common amongst academics for whom the key modification of an article is the peer-review process.  Another use of the term pre-print is for the finished article, reviewed and amended, ready and accepted for publication - but separate from the version that is type-set or formatted by the publisher. This use is more common amongst publishers, for whom the final and significant stage of modification to an article is the arrangement of the material for putting to print. [Source: http://www.sherpa.ac.uk/romeoinfo.html ]
+          <hasNote>
+            <![CDATA[Pre-print describes the first draft of the article - before peer-review, even before any contact with a publisher. This use is common amongst academics for whom the key modification of an article is the peer-review process.  Another use of the term pre-print is for the finished article, reviewed and amended, ready and accepted for publication - but separate from the version that is type-set or formatted by the publisher. This use is more common amongst publishers, for whom the final and significant stage of modification to an article is the arrangement of the material for putting to print. [Source: http://www.sherpa.ac.uk/romeoinfo.html ]]]>
           </hasNote>
         </node>
         <node id="c_93fc" label="report">
-          <hasNote>A report is a separately published record of research findings, research still in progress, or other technical findings, usually bearing a report number and sometimes a grant number assigned by the funding agency. Also, an official record of the activities of a committee or corporate entity, the proceedings of a government body, or an investigation by an agency, whether published or private, usually archived or submitted to a higher authority, voluntarily or under mandate. In a more general sense, any formal account of facts or information related to a specific event or phenomenon, sometimes given at regular intervals. [Source: http://lu.com/odlis/odlis_R.cfm#report ]
+          <hasNote>
+            <![CDATA[A report is a separately published record of research findings, research still in progress, or other technical findings, usually bearing a report number and sometimes a grant number assigned by the funding agency. Also, an official record of the activities of a committee or corporate entity, the proceedings of a government body, or an investigation by an agency, whether published or private, usually archived or submitted to a higher authority, voluntarily or under mandate. In a more general sense, any formal account of facts or information related to a specific event or phenomenon, sometimes given at regular intervals. [Source: http://lu.com/odlis/odlis_R.cfm#report ]]]>
           </hasNote>
           <isComposedBy>
             <node id="c_18ww" label="internal report">
-              <hasNote>An internal report is a record of findings collected for internal use. It is not designed to be made public and may include confidential or proprietary information.
+              <hasNote>
+                <![CDATA[An internal report is a record of findings collected for internal use. It is not designed to be made public and may include confidential or proprietary information.]]>
               </hasNote>
             </node>
             <node id="c_18wz" label="memorandum">
-              <hasNote>It is a note, document or other communication that helps the memory by recording events or observations on a topic. A memorandum can have only a certain number of formats; it may have a format specific to an office or institution.   [Source: https://en.wikipedia.org/wiki/Memorandum]
+              <hasNote>
+                <![CDATA[It is a note, document or other communication that helps the memory by recording events or observations on a topic. A memorandum can have only a certain number of formats; it may have a format specific to an office or institution.   [Source: https://en.wikipedia.org/wiki/Memorandum]]]>
               </hasNote>
             </node>
             <node id="c_18wq" label="other type of report">
-              <hasNote>Other types of report may include Business Plans Technical Specifications, data management plans, recommendation reports, white papers, annual reports, auditor's reports, workplace reports, census reports, trip reports, progress reports, investigative reports, budget reports, policy reports, demographic reports, credit reports, appraisal reports, inspection reports, military reports, bound reports, etc. [Source: https://en.wikipedia.org/wiki/Report]
+              <hasNote>
+                <![CDATA[Other types of report may include Business Plans Technical Specifications, data management plans, recommendation reports, white papers, annual reports, auditor's reports, workplace reports, census reports, trip reports, progress reports, investigative reports, budget reports, policy reports, demographic reports, credit reports, appraisal reports, inspection reports, military reports, bound reports, etc. [Source: https://en.wikipedia.org/wiki/Report]]]>
               </hasNote>
             </node>
             <node id="c_186u" label="policy report">
-              <hasNote>A policy report is a type of report that provides an in-depth look at major policy developments and events [Source: http://www.ifpri.org/topic/global-food-policy-report]
+              <hasNote>
+                <![CDATA[A policy report is a type of report that provides an in-depth look at major policy developments and events [Source: http://www.ifpri.org/topic/global-food-policy-report]]]>
               </hasNote>
             </node>
             <node id="c_18op" label="project deliverable">
-              <hasNote>A project deliverable is an “outcome” as a result of a project that is intended to be delivered to a customer (e.g. funder). Examples of deliverable are report, document, work package or any other building block of an overall project. [Source: https://en.wikipedia.org/wiki/Deliverable ]
+              <hasNote>
+                <![CDATA[A project deliverable is an “outcome” as a result of a project that is intended to be delivered to a customer (e.g. funder). Examples of deliverable are report, document, work package or any other building block of an overall project. [Source: https://en.wikipedia.org/wiki/Deliverable ]]]>
               </hasNote>
             </node>
             <node id="c_ba1f" label="report part">
-              <hasNote>part of a report
+              <hasNote>
+                <![CDATA[part of a report]]>
               </hasNote>
             </node>
             <node id="c_18hj" label="report to funding agency">
-              <hasNote>A report to a funding agency is a document written by beneficiaries of project grants. The reporting documents can be e.g. periodic reports about progress of scientific and technical work and final report. For deliverables use ‘Project deliverable’. [Source: http://ec.europa.eu/research/participants/fp7documents/funding-guide/6_projects/reports/reports_en.htm  ]
+              <hasNote>
+                <![CDATA[A report to a funding agency is a document written by beneficiaries of project grants. The reporting documents can be e.g. periodic reports about progress of scientific and technical work and final report. For deliverables use ‘Project deliverable’. [Source: http://ec.europa.eu/research/participants/fp7documents/funding-guide/6_projects/reports/reports_en.htm  ]]]>
               </hasNote>
             </node>
             <node id="c_18ws" label="research report">
-              <hasNote>Research Reports are reports that typically provide an in-depth study of a particular topic or describe the results of a research project.  [Source: http://www.buildingscience.com/doctypes/reports]
+              <hasNote>
+                <![CDATA[Research Reports are reports that typically provide an in-depth study of a particular topic or describe the results of a research project.  [Source: http://www.buildingscience.com/doctypes/reports]]]>
               </hasNote>
             </node>
             <node id="c_18gh" label="technical report">
-              <hasNote>A technical report is a document that records the procedure adopted and results obtained from a scientific or technical activity or investigation.
+              <hasNote>
+                <![CDATA[A technical report is a document that records the procedure adopted and results obtained from a scientific or technical activity or investigation.]]>
               </hasNote>
             </node>
           </isComposedBy>
         </node>
         <node id="c_baaf" label="research proposal">
-          <hasNote>documentation for grant request
+          <hasNote>
+            <![CDATA[documentation for grant request]]>
           </hasNote>
         </node>
         <node id="c_efa0" label="review">
-          <hasNote>A review of others' published work.
+          <hasNote>
+            <![CDATA[A review of others' published work.]]>
           </hasNote>
           <isComposedBy>
             <node id="c_ba08" label="book review">
-              <hasNote>A written review and critical analysis of the content, scope and quality of a book or other monographic work.
+              <hasNote>
+                <![CDATA[A written review and critical analysis of the content, scope and quality of a book or other monographic work.]]>
               </hasNote>
             </node>
           </isComposedBy>
         </node>
         <node id="c_71bd" label="technical documentation">
-          <hasNote>Technical documentation refers to any type of documentation that describes handling, functionality and architecture of a technical product or a product under development or use. [Source: https://en.wikipedia.org/wiki/Technical_documentation]
+          <hasNote>
+            <![CDATA[Technical documentation refers to any type of documentation that describes handling, functionality and architecture of a technical product or a product under development or use. [Source: https://en.wikipedia.org/wiki/Technical_documentation]]]>
           </hasNote>
         </node>
         <node id="c_46ec" label="thesis">
-          <hasNote>A thesis or dissertation is a document submitted in support of candidature for an academic degree or professional qualification presenting the author's research and findings. [Source: https://en.wikipedia.org/wiki/Thesis ]
+          <hasNote>
+            <![CDATA[A thesis or dissertation is a document submitted in support of candidature for an academic degree or professional qualification presenting the author's research and findings. [Source: https://en.wikipedia.org/wiki/Thesis ]]]>
           </hasNote>
           <isComposedBy>
             <node id="c_7a1f" label="bachelor thesis">
-              <hasNote>A thesis reporting a research project undertaken as part of an undergraduate course of education leading to a bachelor's degree.
+              <hasNote>
+                <![CDATA[A thesis reporting a research project undertaken as part of an undergraduate course of education leading to a bachelor's degree.]]>
               </hasNote>
             </node>
             <node id="c_db06" label="doctoral thesis">
-              <hasNote>A thesis reporting the research undertaken during a period of graduate study leading to a doctoral degree.
+              <hasNote>
+                <![CDATA[A thesis reporting the research undertaken during a period of graduate study leading to a doctoral degree.]]>
               </hasNote>
             </node>
             <node id="c_bdcc" label="master thesis">
-              <hasNote>A thesis reporting a research project undertaken as part of a graduate course of education leading to a master's degree.
+              <hasNote>
+                <![CDATA[A thesis reporting a research project undertaken as part of a graduate course of education leading to a master's degree.]]>
               </hasNote>
             </node>
           </isComposedBy>
         </node>
         <node id="c_8042" label="working paper">
-          <hasNote>A working paper or preprint is a report on research that is still on-going or which has not yet been accepted for publication.
+          <hasNote>
+            <![CDATA[A working paper or preprint is a report on research that is still on-going or which has not yet been accepted for publication.]]>
           </hasNote>
         </node>
       </isComposedBy>
     </node>
     <node id="c_393c" label="workflow">
-      <hasNote>A recorded sequence of connected steps, which may be automated, specifying a reliably repeatable sequence of operations to be undertaken when conducting a particular job, for example an in silico investigation that extracts and processes information from a number of bioinformatics databases.
+      <hasNote>
+        <![CDATA[A recorded sequence of connected steps, which may be automated, specifying a reliably repeatable sequence of operations to be undertaken when conducting a particular job, for example an in silico investigation that extracts and processes information from a number of bioinformatics databases.]]>
       </hasNote>
     </node>
   </isComposedBy>

@@ -40,8 +40,8 @@ skosify \
   --cleanup-properties \
   --cleanup-unreachable \
   --no-enrich-mappings \
-  -o ./concept_scheme_sources/resource_types/3.1/concept_scheme.nt \
-  ~/_temp/downloaded_concept_schemes/resource_types/3.1/concept_scheme.nt
+  -o ./concept_scheme_sources/resource_types/3.2/concept_scheme.nt \
+  ~/_temp/downloaded_concept_schemes/resource_types/3.2/concept_scheme.nt
 ```
 
 ```bash

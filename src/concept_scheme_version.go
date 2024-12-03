@@ -116,7 +116,7 @@ func (conceptSchemeVersion *ConceptSchemeVersion) generateDspaceXmlForLanguage(l
 					}
 				}
 				if concept.Definition != "" {
-					xmlNode += fmt.Sprintf("<hasNote>%s</hasNote>", concept.Definition)
+					xmlNode += fmt.Sprintf("<hasNote><![CDATA[%s]]></hasNote>", concept.Definition)
 				}
 			}
 		}

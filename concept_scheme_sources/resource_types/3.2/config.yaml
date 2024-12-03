@@ -1,0 +1,75 @@
+title: 'Resource Types'
+version: "3.2"
+released: 2024-12-03
+description: 'The Resource Type vocabulary defines concepts to identify the genre of a resource. Such resources, like publications, research data, audio and video objects, are typically deposited in institutional and thematic repositories or published in ejournals. This vocabulary supports a hierarchical model that relates narrower and broader concepts. Multilingual labels regard regional distinctions in language and term. Concepts of this vocabulary are mapped with terms and concepts of similar vocabularies and dictionaries.'
+namespace: 'http://purl.org/coar/resource_type/'
+languages: [ar,ca,cs,da,de,el,en,es,fi,fr,gl,hu,it,ja,ko,nl,pt,ro,ru,sl,sr,sv,sr-cyrl,tr,uk,zh]
+creators:
+  - name: Cristina Azorín
+    language: Catalan
+  - name: Paola Azrilevich
+    language: Spanish
+  - name: Isabel Bernal
+    language: Spanish
+  - name: Gültekin Gürdal
+    language: Turkish
+  - name: Sawsan Habre
+    language: Arabic
+  - name: Juha Hakala
+    language: Finnish
+  - name: Yutaka Hayashi
+    language: Japanese
+  - name: Ilkay Holt
+    language: Turkish
+  - name: Nie Hua
+    language: Chinese
+  - name: Hilary Jones
+    language: English
+  - name: Tomoko Kataoka
+    language: Japanese
+  - name: Laurence Le Borgne
+    language: French
+  - name: Ku (Alan) Liping
+    language: Chinese
+  - name: Marina Losada
+    language: Catalan
+  - name: Susanna Mornati
+    language: Italian
+  - name: Brigit Nonó
+    language: Catalan
+  - name: Milan Ojsteršek
+    language: Slovenian
+  - name: Pedro Príncipe
+    language: Portuguese
+  - name: Irina Razumova
+    language: Russian
+  - name: Jochen Schirrwagen
+    language: German
+  - name: Milica Sevkusic
+    language: Serbian
+  - name: Wilko Steinhoff
+    language: Dutch
+contributors:
+  - COAR Controlled Vocabularies Interest Group
+change_log: |
+  - The following new terms were added:
+    - archival collection
+    - artistic work
+    - collection
+    - court documents
+    - knowledge organization system
+    - knowledge synthesis protocol
+    - magazine article
+    - physical sample
+    - research instrument
+  - The definition for the term "video" was amended
+  - The following language translations were added:
+    - Danish
+    - Galician
+    - Greek
+    - Hungarian
+    - Korean
+    - Romanian
+    - Swedish
+    - Ukrainian
+  
