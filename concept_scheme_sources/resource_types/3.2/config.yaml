@@ -5,52 +5,60 @@ description: 'The Resource Type vocabulary defines concepts to identify the genr
 namespace: 'http://purl.org/coar/resource_type/'
 languages: [ar,ca,cs,da,de,el,en,es,fi,fr,gl,hu,it,ja,ko,nl,pt,ro,ru,sl,sr,sv,sr-cyrl,tr,uk,zh]
 creators:
-  - name: Cristina Azorín
-    language: Catalan
-  - name: Paola Azrilevich
-    language: Spanish
-  - name: Isabel Bernal
-    language: Spanish
-  - name: Gültekin Gürdal
-    language: Turkish
-  - name: Sawsan Habre
-    language: Arabic
-  - name: Juha Hakala
-    language: Finnish
-  - name: Yutaka Hayashi
-    language: Japanese
-  - name: Ilkay Holt
-    language: Turkish
-  - name: Nie Hua
-    language: Chinese
-  - name: Hilary Jones
-    language: English
-  - name: Tomoko Kataoka
-    language: Japanese
-  - name: Laurence Le Borgne
-    language: French
-  - name: Ku (Alan) Liping
-    language: Chinese
-  - name: Marina Losada
-    language: Catalan
-  - name: Susanna Mornati
-    language: Italian
-  - name: Brigit Nonó
-    language: Catalan
-  - name: Milan Ojsteršek
-    language: Slovenian
-  - name: Pedro Príncipe
-    language: Portuguese
-  - name: Irina Razumova
-    language: Russian
-  - name: Jochen Schirrwagen
-    language: German
-  - name: Milica Sevkusic
-    language: Serbian
-  - name: Wilko Steinhoff
-    language: Dutch
+  - name: Isabel Bernal, CSIC, Spain (Editorial Board Chair)
+    language:
+  - name: Joseph Cera, University of California-Berkeley, US
+    language:
+  - name: Mick Eadie, University of Glasgow, United Kingdom
+    language:
+  - name: Benedetta Gandolini, 4Science, Italy
+    language:
+  - name: Sebastiano Giorgi, UOC, Spain
+    language:
+  - name: Gültekin Gürdal, Izmir Institute of Technology Library, Turkey
+    language:
+  - name: Pierre Lasou, Université Laval, Canada
+    language:
+  - name: Yoo Young Lee, University of Ottawa, Canada
+    language:
+  - name: Ku (Alan) Liping, Chinese Academy of Science
+    language:
+  - name: Katharina Menhard, Technische Universität Graz, Austria
+    language:
+  - name: Gretchen Neidhardt, Northwestern University, United States
+    language:
+  - name: Milan Ojsteršek, University of Maribor, Slovenia
+    language:
+  - name: Pedro Príncipe, Universidade do Minho, Portugal
+    language:
+  - name: Ellen Ramsey, COAR
+    language:
+  - name: Jochen Schirrwagen, Aachen University, Germany
+    language:
+  - name: Corinna Schneider, Technische Informationsbibliothek (TIB), Germany
+    language:
+  - name: Milica Sevkusic, EIFL Serbia
+    language:
+  - name: Kathleen Shearer, COAR
+    language:
 contributors:
-  - COAR Controlled Vocabularies Interest Group
+  - Barbara Aristidou, Cyprus University of Technology, Cyprus
+  - Rawia Awadallah, Arab States Research and Education Network
+  - Aysen Binen, Izmir Institute of Technology, Turkey
+  - Jessica Byström, Chalmers University, Sweden
+  - Julie Gauthier, University of Montreal
+  - Diana Furcila Mihalache, FECYT, Spain
+  - Hyekyong Hwang, KISTI, Korea
+  - Krisztina Korosi, University Library of Corvinus University of Budapest, Hungary
+  - Iryna Kuchma, EIFL, Ukraine
+  - Christian Lacroix, University of Montreal
+  - Petra Magnusson, Chalmers University, Sweden
+  - George Macgregor, University of Glasgow, UK
+  - Antonia Nicolaou, Cyprus University of Technology, Cyprus
+  - Carmen Posse, University Library of Santiago de Compostela, Spain
+  - Irina Razumova, COAR
+  - Sa-kwang Song, KISTI, Korea
+  - Paul Walk, Antleaf, UK
 change_log: |
   - The following new terms were added:
     - archival collection

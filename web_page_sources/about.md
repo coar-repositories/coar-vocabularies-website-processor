@@ -10,30 +10,29 @@ vocabulary.
 <div class="row">
     <div class="col">
         <h2>Editorial Board</h2>
-        <h3>Co-Chairs</h3>
+        <h3>Chair</h3>
         <ul>
-            <li>Isabel Bernal, Consejo Superior de Investigaciones Cientifícas (CSIC), Spain – (Co-Chair)</li>
-            <li>Jochen Schirrwagen, University of Bielefeld, Germany – (Co-Chair)</li>
+            <li>Isabel Bernal, Consejo Superior de Investigaciones Cientifícas (CSIC), Spain</li>
         </ul>
         <h3>Board</h3>
         <ul>
-            <li>Alberto Apollaro, Ministerio de Ciencia, Tecnología e Innovación Productiva (MinCyT), Argentina</li>
-            <li>Paola Azrilevich, Ministerio de Ciencia, Tecnología e Innovación Productiva (MinCyT), Argentina</li>
-            <li>Liu Dan, Peking University Library, China</li>
-            <li>Dom Fripp, Jisc, United Kingdom</li>
+            <li>Joseph Cera, University of California-Berkeley, US</li>
+            <li>Mick Eadie, University of Glasgow, United Kingdom</li>
+            <li>Benedetta Gandolini, 4Science, Italy</li>
+            <li>Sebastiano Giorgi, UOC, Spain</li>
             <li>Gültekin Gürdal, Izmir Institute of Technology Library, Turkey</li>
-            <li>Sawsan Habre, Lebanese American University, Lebanon</li>
-            <li>Yutaka Hayashi, JPCOAR, Japan</li>
-            <li>Ilkay Holt, COAR, United Kingdom</li>
-            <li>Nie Hua, Peking University Library, China</li>
-            <li>Hilary Jones, Jisc, United Kingdom</li>
-            <li>Tomoko Kataoka, JPCOAR, Japan</li>
-            <li>Laurence Le Borgne, ADBS, France</li>
-            <li>Ku (Alan) Liping, The National Science Library, CAS, China</li>
-            <li>Susanna Mornati, 4Science, Italy</li>
+            <li>Pierre Lasou, Université Laval, Canada</li>
+            <li>Yoo Young Lee, University of Ottawa, Canada</li>
+            <li>Ku (Alan) Liping, Chinese Academy of Science</li>
+            <li>Katharina Menhard, Technische Universität Graz, Austria</li>
+            <li>Gretchen Neidhardt, Northwestern University, United States</li>
             <li>Milan Ojsteršek, University of Maribor, Slovenia</li>
             <li>Pedro Príncipe, Universidade do Minho, Portugal</li>
-            <li>Wilko Steinhoff, Data Archiving and Networked Services (DANS), Netherlands</li>
+            <li>Ellen Ramsey, COAR</li>
+            <li>Jochen Schirrwagen, Aachen University, Germany</li>
+            <li>Corinna Schneider, Technische Informationsbibliothek (TIB), Germany</li>
+            <li>Milica Sevkusic, EIFL Serbia</li>
+            <li>Kathleen Shearer, COAR</li>
         </ul>
     </div>
     <div class="col">

@@ -4525,26 +4525,38 @@
 <http://purl.org/coar/resource_type/c_7ad9> <http://www.w3.org/2004/02/skos/core#altLabel> "webpage"@en .
 <http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/title> "Resource Types" .
 <http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/description> "The Resource Type vocabulary defines concepts to identify the genre of a resource. Such resources, like publications, research data, audio and video objects, are typically deposited in institutional and thematic repositories or published in ejournals. This vocabulary supports a hierarchical model that relates narrower and broader concepts. Multilingual labels regard regional distinctions in language and term. Concepts of this vocabulary are mapped with terms and concepts of similar vocabularies and dictionaries." .
-<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/creator> "Cristina Azorín" .
-<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/creator> "Paola Azrilevich" .
-<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/creator> "Isabel Bernal" .
-<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/creator> "Gültekin Gürdal" .
-<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/creator> "Sawsan Habre" .
-<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/creator> "Juha Hakala" .
-<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/creator> "Yutaka Hayashi" .
-<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/creator> "Ilkay Holt" .
-<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/creator> "Nie Hua" .
-<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/creator> "Hilary Jones" .
-<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/creator> "Tomoko Kataoka" .
-<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/creator> "Laurence Le Borgne" .
-<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/creator> "Ku (Alan) Liping" .
-<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/creator> "Marina Losada" .
-<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/creator> "Susanna Mornati" .
-<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/creator> "Brigit Nonó" .
-<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/creator> "Milan Ojsteršek" .
-<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/creator> "Pedro Príncipe" .
-<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/creator> "Irina Razumova" .
-<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/creator> "Jochen Schirrwagen" .
-<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/creator> "Milica Sevkusic" .
-<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/creator> "Wilko Steinhoff" .
-<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/contributor> "COAR Controlled Vocabularies Interest Group" .
+<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/creator> "Isabel Bernal, CSIC, Spain (Editorial Board Chair)" .
+<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/creator> "Joseph Cera, University of California-Berkeley, US" .
+<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/creator> "Mick Eadie, University of Glasgow, United Kingdom" .
+<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/creator> "Benedetta Gandolini, 4Science, Italy" .
+<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/creator> "Sebastiano Giorgi, UOC, Spain" .
+<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/creator> "Gültekin Gürdal, Izmir Institute of Technology Library, Turkey" .
+<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/creator> "Pierre Lasou, Université Laval, Canada" .
+<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/creator> "Yoo Young Lee, University of Ottawa, Canada" .
+<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/creator> "Ku (Alan) Liping, Chinese Academy of Science" .
+<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/creator> "Katharina Menhard, Technische Universität Graz, Austria" .
+<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/creator> "Gretchen Neidhardt, Northwestern University, United States" .
+<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/creator> "Milan Ojsteršek, University of Maribor, Slovenia" .
+<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/creator> "Pedro Príncipe, Universidade do Minho, Portugal" .
+<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/creator> "Ellen Ramsey, COAR" .
+<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/creator> "Jochen Schirrwagen, Aachen University, Germany" .
+<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/creator> "Corinna Schneider, Technische Informationsbibliothek (TIB), Germany" .
+<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/creator> "Milica Sevkusic, EIFL Serbia" .
+<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/creator> "Kathleen Shearer, COAR" .
+<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/contributor> "Barbara Aristidou, Cyprus University of Technology, Cyprus" .
+<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/contributor> "Rawia Awadallah, Arab States Research and Education Network" .
+<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/contributor> "Aysen Binen, Izmir Institute of Technology, Turkey" .
+<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/contributor> "Jessica Byström, Chalmers University, Sweden" .
+<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/contributor> "Julie Gauthier, University of Montreal" .
+<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/contributor> "Diana Furcila Mihalache, FECYT, Spain" .
+<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/contributor> "Hyekyong Hwang, KISTI, Korea" .
+<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/contributor> "Krisztina Korosi, University Library of Corvinus University of Budapest, Hungary" .
+<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/contributor> "Iryna Kuchma, EIFL, Ukraine" .
+<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/contributor> "Christian Lacroix, University of Montreal" .
+<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/contributor> "Petra Magnusson, Chalmers University, Sweden" .
+<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/contributor> "George Macgregor, University of Glasgow, UK" .
+<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/contributor> "Antonia Nicolaou, Cyprus University of Technology, Cyprus" .
+<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/contributor> "Carmen Posse, University Library of Santiago de Compostela, Spain" .
+<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/contributor> "Irina Razumova, COAR" .
+<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/contributor> "Sa-kwang Song, KISTI, Korea" .
+<http://purl.org/coar/resource_type/scheme> <http://purl.org/dc/terms/contributor> "Paul Walk, Antleaf, UK" .
