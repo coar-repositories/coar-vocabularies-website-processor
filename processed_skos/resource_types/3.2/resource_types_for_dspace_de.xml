@@ -139,7 +139,7 @@ an integrated circuit intended for manufacture [Source: https://www.wipo.int/edo
           <isComposedBy>
             <node id="c_12ce" label="Video">
               <hasNote>
-                <![CDATA[A recording of visual images, usually in motion and with sound accompaniment. [Source: http://www.ifla.org/files/assets/cataloguing/isbd/isbd-cons_20110321.pdf ]]]>
+                <![CDATA[Media that makes use of images (usually "moving"), with or without sound, over a period of playback time. [Source :https://support.contributors.jstor.org/hc/en-us/articles/11971132444439-JSTOR-Content-and-Resource-Types]]]>
               </hasNote>
             </node>
           </isComposedBy>
@@ -172,7 +172,7 @@ Source: http://purl.org/dc/dcmitype/InteractiveResource]]>
     </node>
     <node id="c_e059" label="Lernobjekt">
       <hasNote>
-        <![CDATA[A digital resource that can be reused to enhance teaching and learning. [Source: https://icas-ca.org/archive/projects/coerc/oer-glossary]]]>
+        <![CDATA[A resource requiring interaction from the user to be understood, executed, or experienced. Examples include forms on Web pages, applets, multimedia learning objects, chat services, or virtual reality environments. [Source: http://purl.org/dc/dcmitype/InteractiveResource]]]>
       </hasNote>
     </node>
     <node id="c_1843" label="sonstige">
@@ -182,10 +182,7 @@ Source: http://purl.org/dc/dcmitype/InteractiveResource]]>
     </node>
     <node id="c_15cd" label="Patent">
       <hasNote>
-        <![CDATA[A set of exclusive rights granted by law to applicants for inventions that are
-new, non-obvious and commercially applicable. A patent is valid for a limited
-period (generally 20 years), during which time patent holders can commercially
-exploit their inventions on an exclusive basis. [Source: https://www.wipo.int/edocs/pubdocs/en/wipo_pub_943_2018.pdf]]]>
+        <![CDATA[A patent or patent application.]]>
       </hasNote>
       <isComposedBy>
         <node id="SB3Y-W4EH" label="Internationale Patentanmeldung">
@@ -223,7 +220,7 @@ exploit their inventions on an exclusive basis. [Source: https://www.wipo.int/ed
     <node id="S7R1-K5P0" label="physische Probe">
       <hasNote>
         <![CDATA[Physical samples include biological specimens, rock or mineral specimens, soil or sediment cores, plants and seeds, water quality samples, archaeological artefacts, or DNA and human tissue samples. Samples may be used in analyses and can be destroyed in this process, whereas specimens are preserved curated objects that can be continuously studied.
-Source: Things Physical Samples https://eprints.gla.ac.uk/309016/1/309016.pdf]]>
+Source: 23 Things Physical Samples https://eprints.gla.ac.uk/309016/1/309016.pdf]]>
       </hasNote>
     </node>
     <node id="8KJG-QS0Y" label="Forschungsinstrument">
