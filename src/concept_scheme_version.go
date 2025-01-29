@@ -98,8 +98,15 @@ func (conceptSchemeVersion *ConceptSchemeVersion) generateDspaceXmlForLanguage(l
 	dSpaceXmlFilePath := filepath.Join(conceptSchemeVersion.SkosProcessedFolderPath, conceptSchemeVersion.ID+"_for_dspace_"+languageCode+".xml")
 	zapLogger.Debug(fmt.Sprintf("Creating DSpace XML file for '%s: %s' at %s", conceptSchemeVersion.ID, conceptSchemeVersion.Version, dSpaceXmlFilePath))
 	var err error
-	xml := "<?xml version=\"1.0\" encoding=\"UTF-8\"?>"
-	xml += "<!-- This XML was automatically generated from the SKOS sources for the COAR Vocabulary. It follows the schema developed by 4Science (https://www.4science.it/) for DSpace -->"
+	//xml := "<?xml version=\"1.0\" encoding=\"UTF-8\"?>"
+	//xml += "<!-- This XML was automatically generated from the SKOS sources for the COAR Vocabulary. It follows the schema developed by the University of Minho (https://www.uminho.pt) for DSpace"
+	//xml += "UMinho Schema: https://github.com/DSpace/DSpace/blob/main/dspace/config/controlled-vocabularies/controlledvocabulary.xsd\nInitial example: https://github.com/4Science/DSpace/blob/dspace-cris-7/dspace/config/controlled-vocabularies/types.xml"
+	xml := `
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This XML was automatically generated from the SKOS sources for the COAR Vocabulary. It follows the schema developed by the University of Minho (https://www.uminho.pt) for DSpace.
+UMinho Schema: https://github.com/DSpace/DSpace/blob/main/dspace/config/controlled-vocabularies/controlledvocabulary.xsd
+Initial example: https://github.com/4Science/DSpace/blob/dspace-cris-7/dspace/config/controlled-vocabularies/types.xml-->
+	`
 	currentLevel := 0
 	finalNodeDepth := 0
 	conceptSchemeVersion.FuncDownMeFirst(0, nil, func(k ki.Ki, level int, d interface{}) bool {

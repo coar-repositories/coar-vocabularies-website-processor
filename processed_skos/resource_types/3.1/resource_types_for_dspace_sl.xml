@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- This XML was automatically generated from the SKOS sources for the COAR Vocabulary. It follows the schema developed by 4Science (https://www.4science.it/) for DSpace -->
+<!--This XML was automatically generated from the SKOS sources for the COAR Vocabulary. It follows the schema developed by the University of Minho (https://www.uminho.pt) for DSpace.
+UMinho Schema: https://github.com/DSpace/DSpace/blob/main/dspace/config/controlled-vocabularies/controlledvocabulary.xsd
+Initial example: https://github.com/4Science/DSpace/blob/dspace-cris-7/dspace/config/controlled-vocabularies/types.xml-->
 <node id="http://purl.org/coar/resource_type/scheme" label="Resource Types">
   <isComposedBy>
     <node id="c_12cc" label="kartografsko gradivo">
