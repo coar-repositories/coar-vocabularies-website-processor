@@ -17,6 +17,8 @@ creators:
     language:
   - name: Gültekin Gürdal, Izmir Institute of Technology Library, Turkey
     language:
+  - name: Tomoko Kataoka, JPCOAR, Japan
+    language:
   - name: Pierre Lasou, Université Laval, Canada
     language:
   - name: Yoo Young Lee, University of Ottawa, Canada
@@ -55,9 +57,11 @@ contributors:
   - Petra Magnusson, Chalmers University, Sweden
   - George Macgregor, University of Glasgow, UK
   - Antonia Nicolaou, Cyprus University of Technology, Cyprus
+  - Jussi Piipponnen, Finnish National Library Group, Finland
   - Carmen Posse, University Library of Santiago de Compostela, Spain
   - Irina Razumova, COAR
   - Sa-kwang Song, KISTI, Korea
+  - Wilko Steinhoff, DANS, The Netherlands
   - Paul Walk, Antleaf, UK
 change_log: |
   - The following new terms were added:
