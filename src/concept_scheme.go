@@ -156,7 +156,7 @@ func (conceptScheme *ConceptScheme) Initialise(config *ConceptSchemeConfig, proc
 	for _, conceptSchemeVersion := range conceptScheme.Versions {
 		for _, concept := range conceptSchemeVersion.Concepts {
 			if latestConceptSchemeVersion.GetConceptById(concept.ID) == nil {
-				zapLogger.Info("Deprecating:", zap.String("scheme", conceptSchemeVersion.ID))
+				zapLogger.Debug("Deprecating:", zap.String("scheme", conceptSchemeVersion.ID))
 				concept.Deprecated = true
 			}
 		}

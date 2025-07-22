@@ -3,7 +3,7 @@ version: "3.2"
 released: 2024-12-03
 description: 'The Resource Type vocabulary defines concepts to identify the genre of a resource. Such resources, like publications, research data, audio and video objects, are typically deposited in institutional and thematic repositories or published in ejournals. This vocabulary supports a hierarchical model that relates narrower and broader concepts. Multilingual labels regard regional distinctions in language and term. Concepts of this vocabulary are mapped with terms and concepts of similar vocabularies and dictionaries.'
 namespace: 'http://purl.org/coar/resource_type/'
-languages: [ar,ca,cs,da,de,el,en,es,fi,fr,gl,hu,it,ja,ko,nl,pt,ro,ru,sl,sr,sv,sr-cyrl,tr,uk,zh]
+languages: [ar,az,ca,cs,da,de,el,en,es,fi,fr,gl,hu,it,ja,ko,nl,pt,ro,ru,sl,sr,sv,sr-cyrl,tr,uk,zh]
 creators:
   - name: Isabel Bernal, CSIC, Spain (Editorial Board Chair)
     language:
@@ -50,7 +50,9 @@ contributors:
   - Jessica Byström, Chalmers University, Sweden
   - Julie Gauthier, University of Montreal, Canada
   - Diana Furcila Mihalache, FECYT, Spain
+  - Khayala Hajiyeva, Azerbaijan Technical University, Azerbaijan
   - Hyekyong Hwang, KISTI, Korea
+  - Iltifat Ibrahimov, Azerbaijan Technical University, Azerbaijan
   - Krisztina Korosi, University Library of Corvinus University of Budapest, Hungary
   - Iryna Kuchma, EIFL, Ukraine
   - Christian Lacroix, University of Montreal, Canada
@@ -76,6 +78,7 @@ change_log: |
     - research instrument
   - The definition for the term "video" was amended
   - The following language translations were added:
+    - Azerbaijani
     - Danish
     - Galician
     - Greek
